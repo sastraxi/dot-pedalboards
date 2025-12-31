@@ -1,0 +1,123 @@
+{
+    "current": 1,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "echo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "ldelay": 300.0,
+                        "lfeedback": 50.0,
+                        "rhaasdelay": 300.0,
+                        "rhaasfeedback": 51.5625,
+                        "lecholevel": -4.0,
+                        "recholevel": -4.0,
+                        "dryLevel": -4.0,
+                        "crossmode": 1.0,
+                        "haaseffect": 0.0,
+                        "swapoutputs": 0.0
+                    },
+                    "preset": ""
+                },
+                "Wider": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 1.0
+                    },
+                    "preset": ""
+                },
+                "ChorusI": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "time": 10.0,
+                        "width": 3.0,
+                        "rate": 1.25,
+                        "blend": 0.26897321428571414,
+                        "feedforward": 0.25,
+                        "feedback": 0.25
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "\u22481 Clean\u2192Lead",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "ChorusI": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "time": 10.0,
+                        "width": 3.0,
+                        "rate": 1.25,
+                        "blend": 0.2689729928970337,
+                        "feedforward": 0.25,
+                        "feedback": 0.25
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Wider": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "pan": 0.0,
+                        "width": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "echo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "ldelay": 99.33036041259766,
+                        "lfeedback": 50.0,
+                        "rhaasdelay": 101.5625,
+                        "rhaasfeedback": 51.5625,
+                        "lecholevel": -4.0,
+                        "recholevel": -4.0,
+                        "dryLevel": 10.0,
+                        "crossmode": 0.9998329877853394,
+                        "haaseffect": 0.0,
+                        "swapoutputs": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        }
+    ]
+}

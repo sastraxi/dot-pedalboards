@@ -1,0 +1,117 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "_oc_2_": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "DIRECT": 0.3755580357142856,
+                        "OCTAVE1": 0.3175223214285724,
+                        "OCTAVE2": 0.664620535714286
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 0.8448660714285716,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 1.0,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.75,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 0.9977678571428571,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 2.0,
+                        "RELEASE": 100.0,
+                        "MASTER_VOL": 10.485491071428584
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 19.84375,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "a_eq": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "freql": 160.0,
+                        "gl": 0.78125,
+                        "freq1": 300.0,
+                        "g1": 3.8169642857142883,
+                        "bw1": 1.0,
+                        "freq2": 1000.0,
+                        "g2": 0.0,
+                        "bw2": 1.0,
+                        "freq3": 2500.0,
+                        "g3": 0.0,
+                        "bw3": 1.0,
+                        "freq4": 6000.0,
+                        "g4": 3.415178571428573,
+                        "bw4": 1.0,
+                        "freqh": 9000.0,
+                        "gh": 3.9508928571428648,
+                        "master": 0.0,
+                        "filtogl": 1.0,
+                        "filtog1": 1.0,
+                        "filtog2": 1.0,
+                        "filtog3": 1.0,
+                        "filtog4": 1.0,
+                        "filtogh": 1.0,
+                        "enable": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "modmeter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "reset": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+collage_mode:
+  enabled: true
+  interpolation: ease_out_quad
+  expression_pedal_id: 0
+  snapshot_stops:
+    "0.0": "Cleanish"
+    "1.0": "Full Fuzz"

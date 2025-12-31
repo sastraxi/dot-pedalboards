@@ -1,0 +1,163 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "talentedhack": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "mix": 0.0,
+                        "pitchpull_amount": 0.0,
+                        "pitchsmooth_amount": 0.0,
+                        "min_pitch": 57.69799401168537,
+                        "max_pitch": 446.79839785965663,
+                        "voiced_threshold": 0.21037946428571433,
+                        "mpm_k": 0.6506696428571431,
+                        "formant_correction": 0.0,
+                        "formant_warp": 0.0,
+                        "accept_midi": 0.0,
+                        "correct_midiout": 0.0,
+                        "lfo_quant": 0.00016666666666666666,
+                        "lfo_amp": 0.0,
+                        "lfo_rate": 9.107142857142858,
+                        "lfo_shape": -0.8203125,
+                        "lfo_symm": 0.0,
+                        "aref": 440.0,
+                        "da": 0.0,
+                        "daa": 0.0033482142857139685,
+                        "db": 0.0,
+                        "dc": 0.0,
+                        "dcc": 0.0011160714285711748,
+                        "dd": 0.0,
+                        "ddd": 0.0033482142857137465,
+                        "de": 0.0,
+                        "df": 0.0,
+                        "dff": 0.0033482142857137465,
+                        "dg": 0.0,
+                        "dgg": 0.004464285714285587,
+                        "oa": 0.0,
+                        "oaa": 0.0,
+                        "ob": 0.0,
+                        "oc": 0.0,
+                        "occ": 0.0,
+                        "od": 0.0,
+                        "odd": 0.0,
+                        "oe": 0.0,
+                        "of": 0.0,
+                        "off": 0.0,
+                        "og": 0.0,
+                        "ogg": 0.0
+                    },
+                    "preset": ""
+                },
+                "midi_display_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "amsynth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "amp_attack": 0.17000000178813934,
+                        "amp_decay": 0.0,
+                        "amp_sustain": 1.0,
+                        "amp_release": 0.4125710129737854,
+                        "osc1_waveform": 1.0,
+                        "filter_attack": 0.0,
+                        "filter_decay": 0.0,
+                        "filter_sustain": 1.0,
+                        "filter_release": 0.0,
+                        "filter_resonance": 0.5441349744796753,
+                        "filter_env_amount": 0.0,
+                        "filter_cutoff": 0.4402349889278412,
+                        "osc2_detune": -0.007637999951839447,
+                        "osc2_waveform": 2.0,
+                        "master_vol": 0.5047320127487183,
+                        "lfo_freq": 1.077299952507019,
+                        "lfo_waveform": 2.0,
+                        "osc2_range": 0.0,
+                        "osc_mix": 0.7522240281105042,
+                        "freq_mod_amount": 0.0,
+                        "filter_mod_amount": -0.8749880194664001,
+                        "amp_mod_amount": -1.0,
+                        "osc_mix_mode": 0.0,
+                        "osc1_pulsewidth": 0.9323300123214722,
+                        "osc2_pulsewidth": 0.0,
+                        "reverb_roomsize": 0.6600430011749268,
+                        "reverb_damp": 0.0,
+                        "reverb_wet": 0.01664000004529953,
+                        "reverb_width": 0.9917629957199097,
+                        "distortion_crunch": 0.0,
+                        "osc2_sync": 0.0,
+                        "portamento_time": 0.0,
+                        "keyboard_mode": 0.0,
+                        "osc2_pitch": 0.0,
+                        "filter_type": 0.0,
+                        "filter_slope": 1.0,
+                        "freq_mod_osc": 0.0,
+                        "filter_kbd_track": 1.0,
+                        "filter_vel_sens": 1.0,
+                        "amp_vel_sens": 1.0,
+                        "portamento_mode": 0.0
+                    },
+                    "preset": "http://code.google.com/p/amsynth/amsynth#amsynth_factory_012_My_Friend"
+                },
+                "eventblocker": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blkcc": 0.0,
+                        "blknote": 0.0,
+                        "blkpc": 0.0,
+                        "blkpp": 0.0,
+                        "blkcp": 0.0,
+                        "blkpb": 1.0,
+                        "blksx": 0.0,
+                        "blkcm": 0.0,
+                        "cmt": 0.0,
+                        "cmf": 0.0,
+                        "cm1": -1.0,
+                        "cm2": -1.0
+                    },
+                    "preset": ""
+                },
+                "System_NoiseGate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Gate_Mode": 3.0,
+                        "Threshold": -24.029017857142854,
+                        "Decay": 10.0
+                    },
+                    "preset": ""
+                },
+                "SuperCapo": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Step": 12.0,
+                        "Gain": 3.0,
+                        "Fidelity": 2.0
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}

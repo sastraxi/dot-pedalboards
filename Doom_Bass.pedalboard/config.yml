@@ -1,0 +1,5 @@
+hardware:
+  external_midi:
+    messages:
+      c4:
+        - [0xC0, 0x01]  # Program Change 1 (C4 preset 2) - Heavy bass synth

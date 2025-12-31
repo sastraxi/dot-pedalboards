@@ -1,0 +1,827 @@
+{
+    "current": 5,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.33705357142857145,
+                        "GATE": -38.475,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.12053571428571429,
+                        "LEVEL": -18.848214285714285
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Rumor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 1.0,
+                        "Knob1": 0.11049107142857147,
+                        "Knob2": 0.12890624999999978
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "xfade": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "xfade": -0.984252,
+                        "shape": 0.0039059999398887157,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eqp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "GAIN": 0.0,
+                        "LFREQ": 200.0,
+                        "LGAIN": 12.0,
+                        "LQ": 0.0,
+                        "MFREQ": 800.0,
+                        "MGAIN": -12.0,
+                        "MQ": -28.0,
+                        "HFREQ": 12000.0,
+                        "HGAIN": 31.0,
+                        "HQ": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Advanced_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "THRES": -20.0,
+                        "KNEE": 20.0,
+                        "ATTACK": 60.78392857246632,
+                        "RELEASE": 100.0,
+                        "RATIO": 2.369337568524579,
+                        "MAKEUP": 4.141741071428584
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "valve": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "q_p": 0.42689732142857145,
+                        "dist_p": 0.5904017857142864
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -5.513392857142861,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -7.633928571428575,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "StompBox_fuzz": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "LEVEL": 26.0,
+                        "HI": -28.0,
+                        "MID": -64.0,
+                        "LO": -38.0,
+                        "GAIN": 115.0
+                    },
+                    "preset": "http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 1.0,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 0.3844866071428561,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.9693080357142853,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 1.0,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "freq": 39.72108172115797,
+                        "gain": 0.0,
+                        "noClip": 0.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Expression Pedal",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.33705357142857145,
+                        "GATE": -38.475,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.12053571428571429,
+                        "LEVEL": -18.848214285714285
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Rumor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 1.0,
+                        "Knob1": 0.11049107142857147,
+                        "Knob2": 0.12890624999999978
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "xfade": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "xfade": -0.984252,
+                        "shape": 0.0039059999398887157,
+                        "mode": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eqp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "GAIN": 0.0,
+                        "LFREQ": 200.0,
+                        "LGAIN": 12.0,
+                        "LQ": 0.0,
+                        "MFREQ": 800.0,
+                        "MGAIN": -12.0,
+                        "MQ": -28.0,
+                        "HFREQ": 12000.0,
+                        "HGAIN": 31.0,
+                        "HQ": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Advanced_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "THRES": -20.0,
+                        "KNEE": 20.0,
+                        "ATTACK": 60.78392857246632,
+                        "RELEASE": 100.0,
+                        "RATIO": 2.369337568524579,
+                        "MAKEUP": 4.141741071428584
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "valve": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "q_p": 0.42689732142857145,
+                        "dist_p": 0.5904017857142864
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -5.513392857142861,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -7.633928571428575,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "StompBox_fuzz": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "LEVEL": 26.0,
+                        "HI": -28.0,
+                        "MID": -64.0,
+                        "LO": -38.0,
+                        "GAIN": 115.0
+                    },
+                    "preset": "http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 1.0,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 0.3844866071428561,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.9693080357142853,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 1.0,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "freq": 39.72108172115797,
+                        "gain": 0.0,
+                        "noClip": 0.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Cleanish",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.33705357142857145,
+                        "GATE": -38.475,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.009324193655885313,
+                        "LEVEL": -18.848214285714285
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Advanced_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "THRES": -20.0,
+                        "KNEE": 20.0,
+                        "ATTACK": 60.78392857246632,
+                        "RELEASE": 100.0,
+                        "RATIO": 2.369337568524579,
+                        "MAKEUP": 5.588169642857153
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 0.9999903763502288,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 0.35937500000000056,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.44253378790489456,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 1.0,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eqp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "GAIN": 0.0,
+                        "LFREQ": 200.0,
+                        "LGAIN": 12.0,
+                        "LQ": 0.0,
+                        "MFREQ": 800.0,
+                        "MGAIN": -12.0,
+                        "MQ": -28.0,
+                        "HFREQ": 12000.0,
+                        "HGAIN": 31.0,
+                        "HQ": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Rumor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 1.0,
+                        "Knob1": 0.1104996200961874,
+                        "Knob2": 0.12890624999999978
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "StompBox_fuzz": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "LEVEL": 23.000642122674098,
+                        "HI": -17.999174413704733,
+                        "MID": -64.0,
+                        "LO": -38.0,
+                        "GAIN": 0.0009478953760478687
+                    },
+                    "preset": "http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -7.633928571428575,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "valve": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "q_p": 0.42689732142857145,
+                        "dist_p": 0.5904017857142864
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -5.513392857142861,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "freq": 39.72108172115797,
+                        "gain": 0.0,
+                        "noClip": 0.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Full Fuzz",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.33705357142857145,
+                        "GATE": -38.475,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.10348880456848306,
+                        "LEVEL": -18.848214285714285
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Advanced_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "THRES": -20.0,
+                        "KNEE": 20.0,
+                        "ATTACK": 60.78392857246632,
+                        "RELEASE": 100.0,
+                        "RATIO": 2.369337568524579,
+                        "MAKEUP": 8.119419642857203
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 0.8683035714285723,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 0.999639709279437,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.8173152081999848,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 1.0,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eqp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "GAIN": 0.0,
+                        "LFREQ": 200.0,
+                        "LGAIN": 12.0,
+                        "LQ": 0.0,
+                        "MFREQ": 800.0,
+                        "MGAIN": -12.0,
+                        "MQ": -28.0,
+                        "HFREQ": 12000.0,
+                        "HGAIN": 31.0,
+                        "HQ": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Rumor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 1.0,
+                        "Knob1": 0.38991255397690167,
+                        "Knob2": 0.12890624999999978
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "StompBox_fuzz": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "LEVEL": 44.0,
+                        "HI": 9.0,
+                        "MID": -64.0,
+                        "LO": -38.0,
+                        "GAIN": 31.0
+                    },
+                    "preset": "http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -7.633928571428575,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "valve": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "q_p": 0.42689732142857145,
+                        "dist_p": 0.5904017857142864
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -5.513392857142861,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "freq": 39.72108172115797,
+                        "gain": 0.0,
+                        "noClip": 0.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "A Snapshot With A Long Name",
+            "data": {
+                "mono_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -7.6339287757873535,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "valve": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "q_p": 0.09654017857142858,
+                        "dist_p": 0.5904020071029663
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Rumor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Bypass": 1.0,
+                        "Knob1": 0.1104996200961874,
+                        "Knob2": 0.1289059966802597
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 0.9999903763502288,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 0.35937500000000056,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.44253378790489456,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 1.0,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Advanced_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "THRES": -20.0,
+                        "KNEE": 20.0,
+                        "ATTACK": 60.78392791748047,
+                        "RELEASE": 100.0,
+                        "RATIO": 2.369338035583496,
+                        "MAKEUP": 5.588169642857153
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -5.513392925262451,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "StompBox_fuzz": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "LEVEL": 23.000642122674098,
+                        "HI": -17.999174413704733,
+                        "MID": -64.0,
+                        "LO": -38.0,
+                        "GAIN": 0.0009478953760478687
+                    },
+                    "preset": "http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eqp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "GAIN": 0.0,
+                        "LFREQ": 200.0,
+                        "LGAIN": 12.0,
+                        "LQ": 0.0,
+                        "MFREQ": 800.0,
+                        "MGAIN": -12.0,
+                        "MQ": -28.0,
+                        "HFREQ": 12000.0,
+                        "HGAIN": 31.0,
+                        "HQ": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.3370540142059326,
+                        "GATE": -38.474998474121094,
+                        "ATTACK": 0.0,
+                        "DRIVE": 0.009324193655885313,
+                        "LEVEL": -18.84821319580078
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "freq": 39.72108172115797,
+                        "gain": 0.0,
+                        "noClip": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        }
+    ]
+}

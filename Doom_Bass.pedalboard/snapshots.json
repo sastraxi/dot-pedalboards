@@ -1,0 +1,225 @@
+{
+    "current": -1,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 0.0,
+                        "HPfreq": 21.67,
+                        "HPQ": 0.699999988079071,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 3.92,
+                        "sec1": 1.0,
+                        "freq1": 98.65,
+                        "q1": 1.95,
+                        "gain1": 8.7,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 1.0,
+                        "freq3": 1250.0,
+                        "q3": 0.6000000238418579,
+                        "gain3": 0.0,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "BigMuffPi": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Tone": 0.35,
+                        "Level": 0.72,
+                        "Sustain": 0.14
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "kuiza": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.5,
+                        "Low": 0.51,
+                        "Lo_Mid": 0.52,
+                        "Hi_Mid": 0.69,
+                        "High": 0.43,
+                        "active": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "rms": 0.5,
+                        "attack": 0.014999999664723873,
+                        "release": 0.03,
+                        "threshold": -17.78,
+                        "ratio": 2.55,
+                        "gain": 0.94,
+                        "noClip": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "kuiza_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Level": 0.5,
+                        "Low": 0.5,
+                        "Lo_Mid": 0.61,
+                        "Hi_Mid": 0.45,
+                        "High": 0.5,
+                        "active": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "LowPassFilter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Freq": 410.71,
+                        "Order": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "LowPassFilter_1": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Freq": 213.27,
+                        "Order": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Schrammel_OJD": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "drive": 0.28,
+                        "tone": 0.31,
+                        "volume": 0.93,
+                        "hp_lp": 0.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "tubewarmth": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "drive": 8.49,
+                        "blend": -0.39
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "HighPassFilter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Freq": 159.73,
+                        "Order": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "LowPassFilter_2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Freq": 2877.09,
+                        "Order": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 1.0,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 1.0,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.8616071428571429,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 1.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 0.9553571428571429,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "_bottlerocket_": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BASS": 0.3604910714285714,
+                        "GAIN": 0.21316964285714282,
+                        "TREBLE": 0.5022321428571428,
+                        "VOLUME": 0.6400669642857142
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}
