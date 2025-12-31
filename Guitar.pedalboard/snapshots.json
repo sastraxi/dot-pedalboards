@@ -1,0 +1,45 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "ts9sim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "fslider0_": -11.0,
+                        "fslider1_": 548.9955357142865,
+                        "fslider2_": 0.6523437500000007
+                    },
+                    "preset": ""
+                },
+                "ChorusI": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "time": 10.282410906392233,
+                        "width": 2.6841517857142936,
+                        "rate": 1.806908481856227,
+                        "blend": 0.37220982142857195,
+                        "feedforward": 0.25,
+                        "feedback": 0.25
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}
