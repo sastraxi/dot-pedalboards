@@ -650,7 +650,7 @@
             }
         },
         {
-            "name": "Collage Mode",
+            "name": "Clean to Fuzz",
             "data": {
                 "CollisionDrive": {
                     "bypassed": false,

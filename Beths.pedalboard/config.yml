@@ -1,7 +1,7 @@
-collage_mode:
-  enabled: true
-  interpolation: ease_out_quad
-  expression_pedal_id: 0
-  snapshot_stops:
-    "0.0": "Cleanish"
-    "1.0": "Full Fuzz"
+blend_snapshots:
+  - name: Clean to Fuzz
+    input_id: 0
+    interpolation: ease_out_quad
+    stops:
+      "0.0": Cleanish
+      "1.0": Full Fuzz
