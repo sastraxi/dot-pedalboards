@@ -1,0 +1,735 @@
+{
+    "current": 3,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Piano": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "env_decay": 64.80000305175781,
+                        "env_release": 50.0,
+                        "hardness_offset": 0.0,
+                        "vel_to_hardness": 50.0,
+                        "muffling_filter": 29.799999237060547,
+                        "vel_to_muffling": 60.20000076293945,
+                        "vel_sensitivity": 55.0,
+                        "stereo_width": 170.0,
+                        "polyphony": 1.0,
+                        "fine_tuning": 0.0,
+                        "random_detuning": 5.580357142857141,
+                        "stretch_tuning": 16.0
+                    },
+                    "preset": "http://moddevices.com/plugins/mda/presets#Piano-concert-piano"
+                },
+                "dragonfly_reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "dry_level": 80.0,
+                        "early_level": 10.0,
+                        "late_level": 20.0,
+                        "size": 40.0,
+                        "width": 100.0,
+                        "delay": 12.0,
+                        "diffuse": 80.0,
+                        "low_cut": 4.0,
+                        "low_xo": 550.0,
+                        "low_mult": 2.0,
+                        "high_cut": 8200.0,
+                        "high_xo": 5200.0,
+                        "high_mult": 0.4000000059604645,
+                        "spin": 2.0999999046325684,
+                        "wander": 20.0,
+                        "decay": 2.799999952316284,
+                        "early_send": 20.0,
+                        "modulation": 15.0
+                    },
+                    "preset": "file:///home/pistomp/.lv2/DragonflyHallReverb.lv2/p42_Large_Clear_Hall.ttl"
+                },
+                "midi_display_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 3.8750223213781867,
+                        "threshold": 0.1877359666523262,
+                        "ratio": 7.997767857142852,
+                        "attack": 20.0,
+                        "release": 154.44018281450423,
+                        "makeup": 1.0,
+                        "knee": 1.57421875,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 0.9955357142857142
+                    },
+                    "preset": ""
+                },
+                "Eq10X2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 4.111607142857132,
+                        "band125hz": 5.357142857142868,
+                        "band250hz": 12.267857142857082,
+                        "band500hz": 3.6294642857142634,
+                        "band1khz": -16.6205357142857,
+                        "band2khz": 2.183035714285694,
+                        "band4khz": -12.602678571428577,
+                        "band8khz": 0.8169642857142918,
+                        "band16khz": 15.361607142857203
+                    },
+                    "preset": ""
+                },
+                "eventblocker": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blkcc": 0.0,
+                        "blknote": 0.0,
+                        "blkpc": 0.0,
+                        "blkpp": 0.0,
+                        "blkcp": 0.0,
+                        "blkpb": 0.0,
+                        "blksx": 1.0,
+                        "blkcm": 0.0,
+                        "cmt": 0.0,
+                        "cmf": 0.0,
+                        "cm1": -1.0,
+                        "cm2": -1.0
+                    },
+                    "preset": ""
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 153.20870535714283,
+                        "MASTER_VOL": 2.1707589285714164
+                    },
+                    "preset": ""
+                },
+                "filta": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "frequency_control": 0.5,
+                        "active": 1.0
+                    },
+                    "preset": ""
+                },
+                "capacitor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lowpass": 0.0,
+                        "highpass": 0.0,
+                        "drywet": 1.0
+                    },
+                    "preset": ""
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 9.92126,
+                        "Smoothing": 1.0
+                    },
+                    "preset": ""
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.9994999766349792,
+                        "tail": 0.5,
+                        "damping": 0.0005000000237487257,
+                        "blend": 0.25
+                    },
+                    "preset": ""
+                },
+                "zynaddsubfx_sourceforge_net": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "slot1": 0.0,
+                        "slot2": 0.0,
+                        "slot3": 0.0,
+                        "slot4": 0.0,
+                        "slot5": 0.0,
+                        "slot6": 0.0,
+                        "slot7": 0.0,
+                        "slot8": 0.0,
+                        "slot9": 0.0,
+                        "slot10": 0.0,
+                        "slot11": 0.0,
+                        "slot12": 0.0,
+                        "slot13": 0.0,
+                        "slot14": 0.0,
+                        "slot15": 0.0,
+                        "slot16": 0.0
+                    },
+                    "preset": "http://zynaddsubfx.sourceforge.net#preset_Collection_0010-Trem%20Synth%20Piano%203"
+                }
+            }
+        },
+        {
+            "name": "Drums 1",
+            "data": {
+                "Eq10X2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": -5.2901787757873535,
+                        "band125hz": -6.455357074737549,
+                        "band250hz": 0.05357100069522858,
+                        "band500hz": 2.90625,
+                        "band1khz": -1.5535709857940674,
+                        "band2khz": 6.2410712242126465,
+                        "band4khz": 5.075892925262451,
+                        "band8khz": 15.08035659790039,
+                        "band16khz": 8.209820747375488
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "capacitor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lowpass": 0.422047,
+                        "highpass": 0.0,
+                        "drywet": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Piano": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "env_decay": 52.19858169555664,
+                        "env_release": 71.06382751464844,
+                        "hardness_offset": 5.791962146759033,
+                        "vel_to_hardness": 50.0,
+                        "muffling_filter": 33.191490173339844,
+                        "vel_to_muffling": 31.01654815673828,
+                        "vel_sensitivity": 37.599998474121094,
+                        "stereo_width": 100.0,
+                        "polyphony": 1.0,
+                        "fine_tuning": 0.0,
+                        "random_detuning": 12.300000190734863,
+                        "stretch_tuning": 0.0
+                    },
+                    "preset": "file:///home/pistomp/.lv2/mod-mda-Piano.lv2/default-preset",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 2.440945,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 2.6581530570983887,
+                        "threshold": 0.341046005487442,
+                        "ratio": 5.940847873687744,
+                        "attack": 30.116252899169922,
+                        "release": 154.440185546875,
+                        "makeup": 1.6328120231628418,
+                        "knee": 1.574218988418579,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 0.6958709955215454
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eventblocker": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blkcc": 0.0,
+                        "blknote": 0.0,
+                        "blkpc": 0.0,
+                        "blkpp": 0.0,
+                        "blkcp": 0.0,
+                        "blkpb": 0.0,
+                        "blksx": 1.0,
+                        "blkcm": 0.0,
+                        "cmt": 0.0,
+                        "cmf": 0.0,
+                        "cm1": -1.0,
+                        "cm2": -1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 135.88169860839844,
+                        "MASTER_VOL": -1.8191959857940674
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -3.861607074737549,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "zynaddsubfx_sourceforge_net": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "slot1": 0.0,
+                        "slot2": 0.0,
+                        "slot3": 0.0,
+                        "slot4": 0.0,
+                        "slot5": 0.0,
+                        "slot6": 0.0,
+                        "slot7": 0.0,
+                        "slot8": 0.0,
+                        "slot9": 0.0,
+                        "slot10": 0.0,
+                        "slot11": 0.0,
+                        "slot12": 0.0,
+                        "slot13": 0.0,
+                        "slot14": 0.0,
+                        "slot15": 0.0,
+                        "slot16": 0.0
+                    },
+                    "preset": "http://zynaddsubfx.sourceforge.net#preset_Drums_0001-Drums%20Kit1",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "midi_display_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.9994999766349792,
+                        "tail": 0.5,
+                        "damping": 0.0005000000237487257,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        },
+        {
+            "name": "Piano 1",
+            "data": {
+                "Eq10X2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 4.111607142857132,
+                        "band125hz": 5.357142857142868,
+                        "band250hz": 12.267857142857082,
+                        "band500hz": 3.6294642857142634,
+                        "band1khz": -16.6205357142857,
+                        "band2khz": 2.183035714285694,
+                        "band4khz": -12.602678571428577,
+                        "band8khz": 0.8169642857142918,
+                        "band16khz": 15.361607142857203
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "capacitor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lowpass": 0.796063,
+                        "highpass": 0.0,
+                        "drywet": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Piano": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "env_decay": 64.80000305175781,
+                        "env_release": 50.0,
+                        "hardness_offset": 0.0,
+                        "vel_to_hardness": 50.0,
+                        "muffling_filter": 29.799999237060547,
+                        "vel_to_muffling": 60.20000076293945,
+                        "vel_sensitivity": 55.0,
+                        "stereo_width": 170.0,
+                        "polyphony": 1.0,
+                        "fine_tuning": 0.0,
+                        "random_detuning": 5.580357142857141,
+                        "stretch_tuning": 16.0
+                    },
+                    "preset": "file:///home/pistomp/.lv2/mod-mda-Piano.lv2/default-preset",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 9.92126,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 3.8750223213781867,
+                        "threshold": 0.1877359666523262,
+                        "ratio": 7.997767857142852,
+                        "attack": 20.0,
+                        "release": 154.44018281450423,
+                        "makeup": 1.0,
+                        "knee": 1.57421875,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 0.9955357142857142
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eventblocker": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blkcc": 0.0,
+                        "blknote": 0.0,
+                        "blkpc": 0.0,
+                        "blkpp": 0.0,
+                        "blkcp": 0.0,
+                        "blkpb": 0.0,
+                        "blksx": 1.0,
+                        "blkcm": 0.0,
+                        "cmt": 0.0,
+                        "cmf": 0.0,
+                        "cm1": -1.0,
+                        "cm2": -1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 153.20870535714283,
+                        "MASTER_VOL": 2.1707589285714164
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "zynaddsubfx_sourceforge_net": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "slot1": 0.0,
+                        "slot2": 0.0,
+                        "slot3": 0.0,
+                        "slot4": 0.0,
+                        "slot5": 0.0,
+                        "slot6": 0.0,
+                        "slot7": 0.0,
+                        "slot8": 0.0,
+                        "slot9": 0.0,
+                        "slot10": 0.0,
+                        "slot11": 0.0,
+                        "slot12": 0.0,
+                        "slot13": 0.0,
+                        "slot14": 0.0,
+                        "slot15": 0.0,
+                        "slot16": 0.0
+                    },
+                    "preset": "http://zynaddsubfx.sourceforge.net#preset_Drums_0001-Drums%20Kit1",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "midi_display_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.9994999766349792,
+                        "tail": 0.5,
+                        "damping": 0.0005000000237487257,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        },
+        {
+            "name": "Noisy Guitar",
+            "data": {
+                "Eq10X2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 4.111607142857132,
+                        "band125hz": 5.357142857142868,
+                        "band250hz": 12.267857142857082,
+                        "band500hz": 3.6294642857142634,
+                        "band1khz": -16.6205357142857,
+                        "band2khz": 2.183035714285694,
+                        "band4khz": -12.602678571428577,
+                        "band8khz": 0.8169642857142918,
+                        "band16khz": 15.361607142857203
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "capacitor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "lowpass": 0.303937,
+                        "highpass": 0.0,
+                        "drywet": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Piano": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "env_decay": 64.80000305175781,
+                        "env_release": 50.0,
+                        "hardness_offset": 0.0,
+                        "vel_to_hardness": 50.0,
+                        "muffling_filter": 29.799999237060547,
+                        "vel_to_muffling": 60.20000076293945,
+                        "vel_sensitivity": 55.0,
+                        "stereo_width": 170.0,
+                        "polyphony": 1.0,
+                        "fine_tuning": 0.0,
+                        "random_detuning": 5.580357142857141,
+                        "stretch_tuning": 16.0
+                    },
+                    "preset": "file:///home/pistomp/.lv2/mod-mda-Piano.lv2/default-preset",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 0.07874,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 3.8750223213781867,
+                        "threshold": 0.1877359666523262,
+                        "ratio": 7.997767857142852,
+                        "attack": 20.0,
+                        "release": 154.44018281450423,
+                        "makeup": 1.0,
+                        "knee": 1.57421875,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 0.9955357142857142
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eventblocker": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blkcc": 0.0,
+                        "blknote": 0.0,
+                        "blkpc": 0.0,
+                        "blkpp": 0.0,
+                        "blkcp": 0.0,
+                        "blkpb": 0.0,
+                        "blksx": 1.0,
+                        "blkcm": 0.0,
+                        "cmt": 0.0,
+                        "cmf": 0.0,
+                        "cm1": -1.0,
+                        "cm2": -1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 153.20870535714283,
+                        "MASTER_VOL": 2.1707589285714164
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "zynaddsubfx_sourceforge_net": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "slot1": 0.0,
+                        "slot2": 0.0,
+                        "slot3": 0.0,
+                        "slot4": 0.0,
+                        "slot5": 0.0,
+                        "slot6": 0.0,
+                        "slot7": 0.0,
+                        "slot8": 0.0,
+                        "slot9": 0.0,
+                        "slot10": 0.0,
+                        "slot11": 0.0,
+                        "slot12": 0.0,
+                        "slot13": 0.0,
+                        "slot14": 0.0,
+                        "slot15": 0.0,
+                        "slot16": 0.0
+                    },
+                    "preset": "http://zynaddsubfx.sourceforge.net#preset_Laba170bank_0046-NoisyGuitar",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "midi_display_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "PlateX2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bandwidth": 0.9994999766349792,
+                        "tail": 0.5,
+                        "damping": 0.0005000000237487257,
+                        "blend": 0.25
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        }
+    ]
+}

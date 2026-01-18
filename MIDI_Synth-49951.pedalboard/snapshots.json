@@ -1,0 +1,248 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 4.263392857142865,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "midi_display_lv2": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {},
+                    "preset": ""
+                },
+                "EPiano": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "env_decay": 8.5,
+                        "env_release": 0.11999999731779099,
+                        "hardness": 0.0,
+                        "treble_boost": 0.0,
+                        "modulation": 0.0,
+                        "lfo_rate": 4.0,
+                        "vel_sense": 0.0,
+                        "stereo_width": 0.0,
+                        "polyphonic": 1.0,
+                        "fine_tuning": -3.855142,
+                        "random_tuning": 7.300000190734863,
+                        "overdrive": 0.0
+                    },
+                    "preset": ""
+                },
+                "lfo2_freq": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "waveForm": 1.0,
+                        "freq": 33.57494565217222,
+                        "phi0": 0.0
+                    },
+                    "preset": ""
+                },
+                "_fuzzfacefm_": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "DRIVE": 0.5,
+                        "FUZZ": 0.5,
+                        "INPUT": 1.0,
+                        "LEVEL": 0.25
+                    },
+                    "preset": ""
+                },
+                "mixer": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Volume1": 0.75,
+                        "Panning1": 0.0,
+                        "Solo1": 0.0,
+                        "Mute1": 0.0,
+                        "Alt1": 0.0,
+                        "Volume2": 1.0,
+                        "Panning2": 0.0,
+                        "Solo2": 0.0,
+                        "Mute2": 0.0,
+                        "Alt2": 0.0,
+                        "Volume3": 0.75,
+                        "Panning3": 0.0,
+                        "Solo3": 0.0,
+                        "Mute3": 0.0,
+                        "Alt3": 0.0,
+                        "Volume4": 0.75,
+                        "Panning4": 0.0,
+                        "Solo4": 0.0,
+                        "Mute4": 0.0,
+                        "Alt4": 0.0,
+                        "MasterVolume": 1.0,
+                        "AltVolume": 0.75,
+                        "PluginEnabled": 1.0
+                    },
+                    "preset": ""
+                },
+                "Advanced_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "THRES": -36.914062499999986,
+                        "KNEE": 20.0,
+                        "ATTACK": 45.612946429722285,
+                        "RELEASE": 98.55859375,
+                        "RATIO": 1.9193238904666845,
+                        "MAKEUP": -0.6194196428571317
+                    },
+                    "preset": ""
+                },
+                "midi_switchbox_1_3": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "target": 0.0
+                    },
+                    "preset": ""
+                },
+                "DX10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "attack": 2.5,
+                        "decay": 6124.0,
+                        "release": 424.4200134277344,
+                        "coarse": 28.0,
+                        "fine": 0.24674999713897705,
+                        "mod_init": 23.0,
+                        "mod_dec": 4600.0,
+                        "mod_sus": 5.0,
+                        "mod_rel": 6485.0,
+                        "mod_vel": 90.0,
+                        "vibrato": 0.0,
+                        "octave": 0.0,
+                        "finetune": 0.0,
+                        "waveform": 44.70000076293945,
+                        "mod_thru": 0.0,
+                        "lfo_rate": 10.350000381469727
+                    },
+                    "preset": ""
+                },
+                "string_machine": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "osc_detune": 0.0015999999595806003,
+                        "osc_hp_cutoff_upper": 8.0,
+                        "osc_hp_cutoff_lower": 8.0,
+                        "osc_pwm_depth": 0.0,
+                        "osc_pwm_frequency": 0.25,
+                        "flt_lp_cutoff_upper": 5.199999809265137,
+                        "flt_hp_cutoff_upper": 12.199999809265137,
+                        "flt_lp_cutoff_lower": 16.399999618530273,
+                        "flt_hp_cutoff_lower": -0.4000000059604645,
+                        "flt_hs_cutoff_eq": 24.799999237060547,
+                        "flt_hs_boost_eq": 6.0,
+                        "mix_gain_upper": 0.0,
+                        "mix_gain_lower": 0.0,
+                        "env_attack": 0.193900004029274,
+                        "env_hold": 0.009999999776482582,
+                        "env_decay": 10.0,
+                        "env_sustain": 0.0,
+                        "env_release": 3.0,
+                        "cho_enabled": 1.0,
+                        "cho_depth": 100.0,
+                        "cho_rate1": 5.83459997177124,
+                        "cho_depth1": 30.709999084472656,
+                        "cho_rate2": 0.5835000276565552,
+                        "cho_depth2": 90.55000305175781,
+                        "cho_model": 1.0,
+                        "master_gain": -8.080357142857139
+                    },
+                    "preset": ""
+                },
+                "alo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "loop1": 1.0,
+                        "loop2": 0.0,
+                        "loop3": 0.0,
+                        "loop4": 0.0,
+                        "loop5": 0.0,
+                        "loop6": 0.0,
+                        "threshold": -40.0,
+                        "midi_base": 60.0,
+                        "instant_loops": 0.0,
+                        "click": 1.0,
+                        "bars": 2.0,
+                        "mix": 50.0,
+                        "reset_mode": 3.0,
+                        "ENABLED": 1.0
+                    },
+                    "preset": ""
+                },
+                "_liquiddrive_": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "DRIVE": 0.4006696428571429,
+                        "LEVEL": -4.799107142857128
+                    },
+                    "preset": ""
+                },
+                "delm": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 0.0,
+                        "WETDRY": 115.0,
+                        "PAN1": -64.0,
+                        "DEL1": 3.0,
+                        "OFFS": 7.0,
+                        "LRCr": 0.0,
+                        "FB1": 21.0,
+                        "DAMP": 0.0,
+                        "PAN2": 63.0,
+                        "DEL2": 6.0,
+                        "FB2": 96.0,
+                        "TEMPO": 60.0,
+                        "GAIN1": 127.0,
+                        "GAIN2": 127.0
+                    },
+                    "preset": "http://rakarrack.sourceforge.net/effects.html#delm:preset:echo_2"
+                },
+                "FluidPlug_Black_Pearl_4A": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "level": 1.0
+                    },
+                    "preset": ""
+                },
+                "Degrade": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "headroom": -6.0,
+                        "quant": 16.0,
+                        "rate": 26923.0,
+                        "integrator_sr": 0.0,
+                        "post_filt": 15000.0,
+                        "non_lin": 0.5396205357142858,
+                        "even_odd": 1.0,
+                        "output": 0.0
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}
