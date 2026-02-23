@@ -175,6 +175,27 @@
                         "mute": 0.0
                     },
                     "preset": ""
+                },
+                "System_NoiseGate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Gate_Mode": 3.0,
+                        "Threshold": -60.0,
+                        "Decay": 123.243861607143
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -42.65625000000001,
+                        "attack": 0.0,
+                        "close": -56.5625,
+                        "mains": 50.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -346,6 +367,27 @@
                     "preset": "",
                     "bpm": 120.0,
                     "bpb": 4.0
+                },
+                "System_NoiseGate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Gate_Mode": 3.0,
+                        "Threshold": -60.0,
+                        "Decay": 123.243861607143
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -42.65625000000001,
+                        "attack": 0.0,
+                        "close": -56.5625,
+                        "mains": 50.0
+                    },
+                    "preset": ""
                 }
             }
         },
@@ -517,6 +559,27 @@
                     "preset": "",
                     "bpm": 120.0,
                     "bpb": 4.0
+                },
+                "System_NoiseGate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Gate_Mode": 3.0,
+                        "Threshold": -60.0,
+                        "Decay": 123.243861607143
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -42.65625000000001,
+                        "attack": 0.0,
+                        "close": -56.5625,
+                        "mains": 50.0
+                    },
+                    "preset": ""
                 }
             }
         },
