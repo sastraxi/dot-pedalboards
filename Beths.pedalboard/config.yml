@@ -3,5 +3,12 @@ blend_snapshots:
     input_id: 0
     interpolation: linear
     stops:
-      "0.0": Cleanish
+      "0.0": Clean
+      "0.3": Light Fuzz
+      "0.7": Mid Fuzz
       "1.0": Full Fuzz
+
+hardware:
+  footswitches:
+  - id: 2
+    longpress: toggle_tuner_enable
