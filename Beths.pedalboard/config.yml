@@ -1,7 +1,7 @@
 blend_snapshots:
   - name: Clean to Fuzz
     input_id: 0
-    interpolation: ease_out_quad
+    interpolation: linear
     stops:
       "0.0": Cleanish
       "1.0": Full Fuzz
