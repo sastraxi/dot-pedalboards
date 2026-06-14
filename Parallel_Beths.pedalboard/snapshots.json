@@ -1,0 +1,11 @@
+{
+  "current": 0,
+  "snapshots": [
+    {
+      "name": "Default",
+      "data": {},
+      "bpm": 120.0,
+      "bpb": 4.0
+    }
+  ]
+}

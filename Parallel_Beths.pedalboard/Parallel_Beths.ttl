@@ -1,0 +1,3426 @@
+@prefix atom:  <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix ingen: <http://drobilla.net/ns/ingen#> .
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix midi:  <http://lv2plug.in/ns/ext/midi#> .
+@prefix mod:   <http://moddevices.com/ns/mod#> .
+@prefix pedal: <http://moddevices.com/ns/modpedal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b1
+    ingen:tail <capture_1> ;
+    ingen:head <mono_2_l0s0/in> .
+
+_:b2
+    ingen:tail <mono_2_l0s0/out> ;
+    ingen:head <StompBox_fuzz_l0s1/INPUT_L> .
+
+_:b3
+    ingen:tail <StompBox_fuzz_l0s1/OUTPUT_L> ;
+    ingen:head <eqp_l0s2/INPUT_L> .
+
+_:b4
+    ingen:tail <eqp_l0s2/OUTPUT_L> ;
+    ingen:head <CollisionDrive_l0s3/in> .
+
+_:b5
+    ingen:tail <CollisionDrive_l0s3/out> ;
+    ingen:head <Rumor_l0s4/in0> .
+
+_:b6
+    ingen:tail <Rumor_l0s4/out0> ;
+    ingen:head <mono_1_l0s5/in> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <mono_l1s0/in> .
+
+_:b8
+    ingen:tail <mono_l1s0/out> ;
+    ingen:head <eqp_l1s1/INPUT_L> .
+
+_:b9
+    ingen:tail <eqp_l1s1/OUTPUT_L> ;
+    ingen:head <CollisionDrive_l1s2/in> .
+
+_:b10
+    ingen:tail <CollisionDrive_l1s2/out> ;
+    ingen:head <Rumor_l1s3/in0> .
+
+_:b11
+    ingen:tail <Rumor_l1s3/out0> ;
+    ingen:head <valve_l1s4/input> .
+
+_:b12
+    ingen:tail <valve_l1s4/output> ;
+    ingen:head <mono_1_l1s5/in> .
+
+_:b13
+    ingen:tail <capture_1> ;
+    ingen:head <mono_2_l2s0/in> .
+
+_:b14
+    ingen:tail <mono_2_l2s0/out> ;
+    ingen:head <eqp_l2s1/INPUT_L> .
+
+_:b15
+    ingen:tail <eqp_l2s1/OUTPUT_L> ;
+    ingen:head <StompBox_fuzz_l2s2/INPUT_L> .
+
+_:b16
+    ingen:tail <StompBox_fuzz_l2s2/OUTPUT_L> ;
+    ingen:head <CollisionDrive_l2s3/in> .
+
+_:b17
+    ingen:tail <CollisionDrive_l2s3/out> ;
+    ingen:head <valve_l2s4/input> .
+
+_:b18
+    ingen:tail <valve_l2s4/output> ;
+    ingen:head <mono_1_l2s5/in> .
+
+_:b19
+    ingen:tail <capture_1> ;
+    ingen:head <mono_l3s0/in> .
+
+_:b20
+    ingen:tail <mono_l3s0/out> ;
+    ingen:head <StompBox_fuzz_l3s1/INPUT_L> .
+
+_:b21
+    ingen:tail <StompBox_fuzz_l3s1/OUTPUT_L> ;
+    ingen:head <eqp_l3s2/INPUT_L> .
+
+_:b22
+    ingen:tail <eqp_l3s2/OUTPUT_L> ;
+    ingen:head <Rumor_l3s3/in0> .
+
+_:b23
+    ingen:tail <Rumor_l3s3/out0> ;
+    ingen:head <valve_l3s4/input> .
+
+_:b24
+    ingen:tail <valve_l3s4/output> ;
+    ingen:head <mono_1_l3s5/in> .
+
+_:b25
+    ingen:tail <capture_1> ;
+    ingen:head <mono_2_l4s0/in> .
+
+_:b26
+    ingen:tail <mono_2_l4s0/out> ;
+    ingen:head <CollisionDrive_l4s1/in> .
+
+_:b27
+    ingen:tail <CollisionDrive_l4s1/out> ;
+    ingen:head <eqp_l4s2/INPUT_L> .
+
+_:b28
+    ingen:tail <eqp_l4s2/OUTPUT_L> ;
+    ingen:head <StompBox_fuzz_l4s3/INPUT_L> .
+
+_:b29
+    ingen:tail <StompBox_fuzz_l4s3/OUTPUT_L> ;
+    ingen:head <valve_l4s4/input> .
+
+_:b30
+    ingen:tail <valve_l4s4/output> ;
+    ingen:head <mono_1_l4s5/in> .
+
+_:b31
+    ingen:tail <capture_1> ;
+    ingen:head <mono_l5s0/in> .
+
+_:b32
+    ingen:tail <mono_l5s0/out> ;
+    ingen:head <Rumor_l5s1/in0> .
+
+_:b33
+    ingen:tail <Rumor_l5s1/out0> ;
+    ingen:head <eqp_l5s2/INPUT_L> .
+
+_:b34
+    ingen:tail <eqp_l5s2/OUTPUT_L> ;
+    ingen:head <CollisionDrive_l5s3/in> .
+
+_:b35
+    ingen:tail <CollisionDrive_l5s3/out> ;
+    ingen:head <StompBox_fuzz_l5s4/INPUT_L> .
+
+_:b36
+    ingen:tail <StompBox_fuzz_l5s4/OUTPUT_L> ;
+    ingen:head <mono_1_l5s5/in> .
+
+_:b37
+    ingen:tail <mono_1_l0s5/out> ;
+    ingen:head <mixer_a/lv2_audio_in_1> .
+
+_:b38
+    ingen:tail <mono_1_l1s5/out> ;
+    ingen:head <mixer_a/lv2_audio_in_2> .
+
+_:b39
+    ingen:tail <mono_1_l2s5/out> ;
+    ingen:head <mixer_a/lv2_audio_in_3> .
+
+_:b40
+    ingen:tail <mono_1_l3s5/out> ;
+    ingen:head <mixer_a/lv2_audio_in_4> .
+
+_:b41
+    ingen:tail <mixer_a/lv2_audio_out_1> ;
+    ingen:head <mixer_b/lv2_audio_in_1> .
+
+_:b42
+    ingen:tail <mono_1_l4s5/out> ;
+    ingen:head <mixer_b/lv2_audio_in_2> .
+
+_:b43
+    ingen:tail <mono_1_l5s5/out> ;
+    ingen:head <mixer_b/lv2_audio_in_3> .
+
+_:b44
+    ingen:tail <mixer_b/lv2_audio_out_1> ;
+    ingen:head <playback_1> .
+
+
+<mono_2_l0s0>
+    ingen:canvasX 150.0 ;
+    ingen:canvasY 180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_2_l0s0/in> ,
+             <mono_2_l0s0/out> ,
+             <mono_2_l0s0/gain> ,
+             <mono_2_l0s0/enable> ,
+             <mono_2_l0s0/mute> ,
+             <mono_2_l0s0/level> ,
+             <mono_2_l0s0/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 1 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_2_l0s0/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_2_l0s0/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_2_l0s0/gain>
+    ingen:value -7.633929 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l0s0/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l0s0/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l0s0/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_2_l0s0/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<StompBox_fuzz_l0s1>
+    ingen:canvasX 150.0 ;
+    ingen:canvasY 300.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <StompBox_fuzz_l0s1/INPUT_L> ,
+             <StompBox_fuzz_l0s1/INPUT_R> ,
+             <StompBox_fuzz_l0s1/OUTPUT_L> ,
+             <StompBox_fuzz_l0s1/OUTPUT_R> ,
+             <StompBox_fuzz_l0s1/BYPASS> ,
+             <StompBox_fuzz_l0s1/LEVEL> ,
+             <StompBox_fuzz_l0s1/HI> ,
+             <StompBox_fuzz_l0s1/MID> ,
+             <StompBox_fuzz_l0s1/LO> ,
+             <StompBox_fuzz_l0s1/GAIN> ,
+             <StompBox_fuzz_l0s1/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz> ;
+    pedal:instanceNumber 2 ;
+    pedal:preset <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz> ;
+    a ingen:Block .
+
+<StompBox_fuzz_l0s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l0s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l0s1/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/LEVEL>
+    ingen:value 26.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/HI>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/MID>
+    ingen:value -64.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/LO>
+    ingen:value -38.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/GAIN>
+    ingen:value 115.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l0s1/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<eqp_l0s2>
+    ingen:canvasX 150.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <eqp_l0s2/INPUT_L> ,
+             <eqp_l0s2/INPUT_R> ,
+             <eqp_l0s2/OUTPUT_L> ,
+             <eqp_l0s2/OUTPUT_R> ,
+             <eqp_l0s2/BYPASS> ,
+             <eqp_l0s2/GAIN> ,
+             <eqp_l0s2/LFREQ> ,
+             <eqp_l0s2/LGAIN> ,
+             <eqp_l0s2/LQ> ,
+             <eqp_l0s2/MFREQ> ,
+             <eqp_l0s2/MGAIN> ,
+             <eqp_l0s2/MQ> ,
+             <eqp_l0s2/HFREQ> ,
+             <eqp_l0s2/HGAIN> ,
+             <eqp_l0s2/HQ> ,
+             <eqp_l0s2/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#eqp> ;
+    pedal:instanceNumber 3 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<eqp_l0s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l0s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l0s2/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/GAIN>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/LFREQ>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/LGAIN>
+    ingen:value 12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/LQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/MFREQ>
+    ingen:value 800.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/MGAIN>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/MQ>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/HFREQ>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/HGAIN>
+    ingen:value 31.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/HQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l0s2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<CollisionDrive_l0s3>
+    ingen:canvasX 150.0 ;
+    ingen:canvasY 540.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CollisionDrive_l0s3/in> ,
+             <CollisionDrive_l0s3/out> ,
+             <CollisionDrive_l0s3/BYPASS> ,
+             <CollisionDrive_l0s3/BRIGHT> ,
+             <CollisionDrive_l0s3/GATE> ,
+             <CollisionDrive_l0s3/ATTACK> ,
+             <CollisionDrive_l0s3/DRIVE> ,
+             <CollisionDrive_l0s3/LEVEL> ,
+             <CollisionDrive_l0s3/V1> ,
+             <CollisionDrive_l0s3/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/CollisionDrive> ;
+    pedal:instanceNumber 4 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CollisionDrive_l0s3/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l0s3/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/BRIGHT>
+    ingen:value 0.337054 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/GATE>
+    ingen:value -38.475000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/ATTACK>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/DRIVE>
+    ingen:value 0.120536 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/LEVEL>
+    ingen:value -18.848214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l0s3/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l0s3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<Rumor_l0s4>
+    ingen:canvasX 150.0 ;
+    ingen:canvasY 660.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <Rumor_l0s4/in0> ,
+             <Rumor_l0s4/out0> ,
+             <Rumor_l0s4/Bypass> ,
+             <Rumor_l0s4/Knob1> ,
+             <Rumor_l0s4/Knob2> ,
+             <Rumor_l0s4/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/Rumor> ;
+    pedal:instanceNumber 5 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Rumor_l0s4/in0>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Rumor_l0s4/in0>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Rumor_l0s4/Bypass>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l0s4/Knob1>
+    ingen:value 0.110491 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l0s4/Knob2>
+    ingen:value 0.128906 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l0s4/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_1_l0s5>
+    ingen:canvasX 150.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_1_l0s5/in> ,
+             <mono_1_l0s5/out> ,
+             <mono_1_l0s5/gain> ,
+             <mono_1_l0s5/enable> ,
+             <mono_1_l0s5/mute> ,
+             <mono_1_l0s5/level> ,
+             <mono_1_l0s5/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 6 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_1_l0s5/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_1_l0s5/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_1_l0s5/gain>
+    ingen:value -5.513393 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l0s5/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l0s5/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l0s5/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_1_l0s5/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_l1s0>
+    ingen:canvasX 530.0 ;
+    ingen:canvasY 180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_l1s0/in> ,
+             <mono_l1s0/out> ,
+             <mono_l1s0/bypass> ,
+             <mono_l1s0/rms> ,
+             <mono_l1s0/attack> ,
+             <mono_l1s0/release> ,
+             <mono_l1s0/threshold> ,
+             <mono_l1s0/ratio> ,
+             <mono_l1s0/gain> ,
+             <mono_l1s0/noClip> ,
+             <mono_l1s0/grmeter> ,
+             <mono_l1s0/lampDrive> ,
+             <mono_l1s0/meterIn> ,
+             <mono_l1s0/meterOut> ,
+             <mono_l1s0/:bypass> ;
+    lv2:prototype <http://invadarecords.com/plugins/lv2/compressor/mono> ;
+    pedal:instanceNumber 7 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_l1s0/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_l1s0/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_l1s0/bypass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/rms>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/attack>
+    ingen:value 0.014585 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/release>
+    ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/threshold>
+    ingen:value -15.167411 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/ratio>
+    ingen:value 2.813058 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/gain>
+    ingen:value 2.390625 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/noClip>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l1s0/grmeter>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l1s0/lampDrive>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l1s0/meterIn>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l1s0/meterOut>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l1s0/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<eqp_l1s1>
+    ingen:canvasX 530.0 ;
+    ingen:canvasY 300.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <eqp_l1s1/INPUT_L> ,
+             <eqp_l1s1/INPUT_R> ,
+             <eqp_l1s1/OUTPUT_L> ,
+             <eqp_l1s1/OUTPUT_R> ,
+             <eqp_l1s1/BYPASS> ,
+             <eqp_l1s1/GAIN> ,
+             <eqp_l1s1/LFREQ> ,
+             <eqp_l1s1/LGAIN> ,
+             <eqp_l1s1/LQ> ,
+             <eqp_l1s1/MFREQ> ,
+             <eqp_l1s1/MGAIN> ,
+             <eqp_l1s1/MQ> ,
+             <eqp_l1s1/HFREQ> ,
+             <eqp_l1s1/HGAIN> ,
+             <eqp_l1s1/HQ> ,
+             <eqp_l1s1/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#eqp> ;
+    pedal:instanceNumber 8 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<eqp_l1s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l1s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l1s1/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/GAIN>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/LFREQ>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/LGAIN>
+    ingen:value 12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/LQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/MFREQ>
+    ingen:value 800.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/MGAIN>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/MQ>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/HFREQ>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/HGAIN>
+    ingen:value 31.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/HQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l1s1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<CollisionDrive_l1s2>
+    ingen:canvasX 530.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CollisionDrive_l1s2/in> ,
+             <CollisionDrive_l1s2/out> ,
+             <CollisionDrive_l1s2/BYPASS> ,
+             <CollisionDrive_l1s2/BRIGHT> ,
+             <CollisionDrive_l1s2/GATE> ,
+             <CollisionDrive_l1s2/ATTACK> ,
+             <CollisionDrive_l1s2/DRIVE> ,
+             <CollisionDrive_l1s2/LEVEL> ,
+             <CollisionDrive_l1s2/V1> ,
+             <CollisionDrive_l1s2/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/CollisionDrive> ;
+    pedal:instanceNumber 9 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CollisionDrive_l1s2/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l1s2/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/BRIGHT>
+    ingen:value 0.337054 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/GATE>
+    ingen:value -38.475000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/ATTACK>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/DRIVE>
+    ingen:value 0.120536 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/LEVEL>
+    ingen:value -18.848214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l1s2/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l1s2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<Rumor_l1s3>
+    ingen:canvasX 530.0 ;
+    ingen:canvasY 540.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <Rumor_l1s3/in0> ,
+             <Rumor_l1s3/out0> ,
+             <Rumor_l1s3/Bypass> ,
+             <Rumor_l1s3/Knob1> ,
+             <Rumor_l1s3/Knob2> ,
+             <Rumor_l1s3/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/Rumor> ;
+    pedal:instanceNumber 10 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Rumor_l1s3/in0>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Rumor_l1s3/in0>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Rumor_l1s3/Bypass>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l1s3/Knob1>
+    ingen:value 0.110491 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l1s3/Knob2>
+    ingen:value 0.128906 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l1s3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<valve_l1s4>
+    ingen:canvasX 530.0 ;
+    ingen:canvasY 660.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <valve_l1s4/input> ,
+             <valve_l1s4/output> ,
+             <valve_l1s4/q_p> ,
+             <valve_l1s4/dist_p> ,
+             <valve_l1s4/:bypass> ;
+    lv2:prototype <http://plugin.org.uk/swh-plugins/valve> ;
+    pedal:instanceNumber 11 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<valve_l1s4/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<valve_l1s4/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<valve_l1s4/q_p>
+    ingen:value 0.426897 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l1s4/dist_p>
+    ingen:value 0.590402 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l1s4/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_1_l1s5>
+    ingen:canvasX 530.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_1_l1s5/in> ,
+             <mono_1_l1s5/out> ,
+             <mono_1_l1s5/gain> ,
+             <mono_1_l1s5/enable> ,
+             <mono_1_l1s5/mute> ,
+             <mono_1_l1s5/level> ,
+             <mono_1_l1s5/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 12 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_1_l1s5/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_1_l1s5/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_1_l1s5/gain>
+    ingen:value -5.513393 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l1s5/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l1s5/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l1s5/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_1_l1s5/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_2_l2s0>
+    ingen:canvasX 910.0 ;
+    ingen:canvasY 180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_2_l2s0/in> ,
+             <mono_2_l2s0/out> ,
+             <mono_2_l2s0/gain> ,
+             <mono_2_l2s0/enable> ,
+             <mono_2_l2s0/mute> ,
+             <mono_2_l2s0/level> ,
+             <mono_2_l2s0/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 13 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_2_l2s0/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_2_l2s0/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_2_l2s0/gain>
+    ingen:value -7.633929 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l2s0/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l2s0/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l2s0/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_2_l2s0/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<eqp_l2s1>
+    ingen:canvasX 910.0 ;
+    ingen:canvasY 300.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <eqp_l2s1/INPUT_L> ,
+             <eqp_l2s1/INPUT_R> ,
+             <eqp_l2s1/OUTPUT_L> ,
+             <eqp_l2s1/OUTPUT_R> ,
+             <eqp_l2s1/BYPASS> ,
+             <eqp_l2s1/GAIN> ,
+             <eqp_l2s1/LFREQ> ,
+             <eqp_l2s1/LGAIN> ,
+             <eqp_l2s1/LQ> ,
+             <eqp_l2s1/MFREQ> ,
+             <eqp_l2s1/MGAIN> ,
+             <eqp_l2s1/MQ> ,
+             <eqp_l2s1/HFREQ> ,
+             <eqp_l2s1/HGAIN> ,
+             <eqp_l2s1/HQ> ,
+             <eqp_l2s1/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#eqp> ;
+    pedal:instanceNumber 14 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<eqp_l2s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l2s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l2s1/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/GAIN>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/LFREQ>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/LGAIN>
+    ingen:value 12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/LQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/MFREQ>
+    ingen:value 800.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/MGAIN>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/MQ>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/HFREQ>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/HGAIN>
+    ingen:value 31.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/HQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l2s1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<StompBox_fuzz_l2s2>
+    ingen:canvasX 910.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <StompBox_fuzz_l2s2/INPUT_L> ,
+             <StompBox_fuzz_l2s2/INPUT_R> ,
+             <StompBox_fuzz_l2s2/OUTPUT_L> ,
+             <StompBox_fuzz_l2s2/OUTPUT_R> ,
+             <StompBox_fuzz_l2s2/BYPASS> ,
+             <StompBox_fuzz_l2s2/LEVEL> ,
+             <StompBox_fuzz_l2s2/HI> ,
+             <StompBox_fuzz_l2s2/MID> ,
+             <StompBox_fuzz_l2s2/LO> ,
+             <StompBox_fuzz_l2s2/GAIN> ,
+             <StompBox_fuzz_l2s2/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz> ;
+    pedal:instanceNumber 15 ;
+    pedal:preset <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz> ;
+    a ingen:Block .
+
+<StompBox_fuzz_l2s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l2s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l2s2/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/LEVEL>
+    ingen:value 26.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/HI>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/MID>
+    ingen:value -64.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/LO>
+    ingen:value -38.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/GAIN>
+    ingen:value 115.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l2s2/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<CollisionDrive_l2s3>
+    ingen:canvasX 910.0 ;
+    ingen:canvasY 540.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CollisionDrive_l2s3/in> ,
+             <CollisionDrive_l2s3/out> ,
+             <CollisionDrive_l2s3/BYPASS> ,
+             <CollisionDrive_l2s3/BRIGHT> ,
+             <CollisionDrive_l2s3/GATE> ,
+             <CollisionDrive_l2s3/ATTACK> ,
+             <CollisionDrive_l2s3/DRIVE> ,
+             <CollisionDrive_l2s3/LEVEL> ,
+             <CollisionDrive_l2s3/V1> ,
+             <CollisionDrive_l2s3/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/CollisionDrive> ;
+    pedal:instanceNumber 16 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CollisionDrive_l2s3/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l2s3/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/BRIGHT>
+    ingen:value 0.337054 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/GATE>
+    ingen:value -38.475000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/ATTACK>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/DRIVE>
+    ingen:value 0.120536 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/LEVEL>
+    ingen:value -18.848214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l2s3/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l2s3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<valve_l2s4>
+    ingen:canvasX 910.0 ;
+    ingen:canvasY 660.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <valve_l2s4/input> ,
+             <valve_l2s4/output> ,
+             <valve_l2s4/q_p> ,
+             <valve_l2s4/dist_p> ,
+             <valve_l2s4/:bypass> ;
+    lv2:prototype <http://plugin.org.uk/swh-plugins/valve> ;
+    pedal:instanceNumber 17 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<valve_l2s4/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<valve_l2s4/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<valve_l2s4/q_p>
+    ingen:value 0.426897 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l2s4/dist_p>
+    ingen:value 0.590402 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l2s4/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_1_l2s5>
+    ingen:canvasX 910.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_1_l2s5/in> ,
+             <mono_1_l2s5/out> ,
+             <mono_1_l2s5/gain> ,
+             <mono_1_l2s5/enable> ,
+             <mono_1_l2s5/mute> ,
+             <mono_1_l2s5/level> ,
+             <mono_1_l2s5/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 18 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_1_l2s5/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_1_l2s5/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_1_l2s5/gain>
+    ingen:value -5.513393 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l2s5/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l2s5/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l2s5/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_1_l2s5/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_l3s0>
+    ingen:canvasX 1290.0 ;
+    ingen:canvasY 180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_l3s0/in> ,
+             <mono_l3s0/out> ,
+             <mono_l3s0/bypass> ,
+             <mono_l3s0/rms> ,
+             <mono_l3s0/attack> ,
+             <mono_l3s0/release> ,
+             <mono_l3s0/threshold> ,
+             <mono_l3s0/ratio> ,
+             <mono_l3s0/gain> ,
+             <mono_l3s0/noClip> ,
+             <mono_l3s0/grmeter> ,
+             <mono_l3s0/lampDrive> ,
+             <mono_l3s0/meterIn> ,
+             <mono_l3s0/meterOut> ,
+             <mono_l3s0/:bypass> ;
+    lv2:prototype <http://invadarecords.com/plugins/lv2/compressor/mono> ;
+    pedal:instanceNumber 19 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_l3s0/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_l3s0/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_l3s0/bypass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/rms>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/attack>
+    ingen:value 0.014585 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/release>
+    ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/threshold>
+    ingen:value -15.167411 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/ratio>
+    ingen:value 2.813058 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/gain>
+    ingen:value 2.390625 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/noClip>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l3s0/grmeter>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l3s0/lampDrive>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l3s0/meterIn>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l3s0/meterOut>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l3s0/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<StompBox_fuzz_l3s1>
+    ingen:canvasX 1290.0 ;
+    ingen:canvasY 300.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <StompBox_fuzz_l3s1/INPUT_L> ,
+             <StompBox_fuzz_l3s1/INPUT_R> ,
+             <StompBox_fuzz_l3s1/OUTPUT_L> ,
+             <StompBox_fuzz_l3s1/OUTPUT_R> ,
+             <StompBox_fuzz_l3s1/BYPASS> ,
+             <StompBox_fuzz_l3s1/LEVEL> ,
+             <StompBox_fuzz_l3s1/HI> ,
+             <StompBox_fuzz_l3s1/MID> ,
+             <StompBox_fuzz_l3s1/LO> ,
+             <StompBox_fuzz_l3s1/GAIN> ,
+             <StompBox_fuzz_l3s1/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz> ;
+    pedal:instanceNumber 20 ;
+    pedal:preset <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz> ;
+    a ingen:Block .
+
+<StompBox_fuzz_l3s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l3s1/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l3s1/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/LEVEL>
+    ingen:value 26.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/HI>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/MID>
+    ingen:value -64.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/LO>
+    ingen:value -38.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/GAIN>
+    ingen:value 115.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l3s1/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<eqp_l3s2>
+    ingen:canvasX 1290.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <eqp_l3s2/INPUT_L> ,
+             <eqp_l3s2/INPUT_R> ,
+             <eqp_l3s2/OUTPUT_L> ,
+             <eqp_l3s2/OUTPUT_R> ,
+             <eqp_l3s2/BYPASS> ,
+             <eqp_l3s2/GAIN> ,
+             <eqp_l3s2/LFREQ> ,
+             <eqp_l3s2/LGAIN> ,
+             <eqp_l3s2/LQ> ,
+             <eqp_l3s2/MFREQ> ,
+             <eqp_l3s2/MGAIN> ,
+             <eqp_l3s2/MQ> ,
+             <eqp_l3s2/HFREQ> ,
+             <eqp_l3s2/HGAIN> ,
+             <eqp_l3s2/HQ> ,
+             <eqp_l3s2/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#eqp> ;
+    pedal:instanceNumber 21 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<eqp_l3s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l3s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l3s2/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/GAIN>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/LFREQ>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/LGAIN>
+    ingen:value 12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/LQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/MFREQ>
+    ingen:value 800.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/MGAIN>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/MQ>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/HFREQ>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/HGAIN>
+    ingen:value 31.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/HQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l3s2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<Rumor_l3s3>
+    ingen:canvasX 1290.0 ;
+    ingen:canvasY 540.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <Rumor_l3s3/in0> ,
+             <Rumor_l3s3/out0> ,
+             <Rumor_l3s3/Bypass> ,
+             <Rumor_l3s3/Knob1> ,
+             <Rumor_l3s3/Knob2> ,
+             <Rumor_l3s3/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/Rumor> ;
+    pedal:instanceNumber 22 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Rumor_l3s3/in0>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Rumor_l3s3/in0>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Rumor_l3s3/Bypass>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l3s3/Knob1>
+    ingen:value 0.110491 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l3s3/Knob2>
+    ingen:value 0.128906 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l3s3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<valve_l3s4>
+    ingen:canvasX 1290.0 ;
+    ingen:canvasY 660.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <valve_l3s4/input> ,
+             <valve_l3s4/output> ,
+             <valve_l3s4/q_p> ,
+             <valve_l3s4/dist_p> ,
+             <valve_l3s4/:bypass> ;
+    lv2:prototype <http://plugin.org.uk/swh-plugins/valve> ;
+    pedal:instanceNumber 23 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<valve_l3s4/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<valve_l3s4/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<valve_l3s4/q_p>
+    ingen:value 0.426897 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l3s4/dist_p>
+    ingen:value 0.590402 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l3s4/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_1_l3s5>
+    ingen:canvasX 1290.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_1_l3s5/in> ,
+             <mono_1_l3s5/out> ,
+             <mono_1_l3s5/gain> ,
+             <mono_1_l3s5/enable> ,
+             <mono_1_l3s5/mute> ,
+             <mono_1_l3s5/level> ,
+             <mono_1_l3s5/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 24 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_1_l3s5/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_1_l3s5/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_1_l3s5/gain>
+    ingen:value -5.513393 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l3s5/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l3s5/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l3s5/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_1_l3s5/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_2_l4s0>
+    ingen:canvasX 1670.0 ;
+    ingen:canvasY 180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_2_l4s0/in> ,
+             <mono_2_l4s0/out> ,
+             <mono_2_l4s0/gain> ,
+             <mono_2_l4s0/enable> ,
+             <mono_2_l4s0/mute> ,
+             <mono_2_l4s0/level> ,
+             <mono_2_l4s0/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 25 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_2_l4s0/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_2_l4s0/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_2_l4s0/gain>
+    ingen:value -7.633929 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l4s0/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l4s0/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_2_l4s0/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_2_l4s0/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<CollisionDrive_l4s1>
+    ingen:canvasX 1670.0 ;
+    ingen:canvasY 300.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CollisionDrive_l4s1/in> ,
+             <CollisionDrive_l4s1/out> ,
+             <CollisionDrive_l4s1/BYPASS> ,
+             <CollisionDrive_l4s1/BRIGHT> ,
+             <CollisionDrive_l4s1/GATE> ,
+             <CollisionDrive_l4s1/ATTACK> ,
+             <CollisionDrive_l4s1/DRIVE> ,
+             <CollisionDrive_l4s1/LEVEL> ,
+             <CollisionDrive_l4s1/V1> ,
+             <CollisionDrive_l4s1/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/CollisionDrive> ;
+    pedal:instanceNumber 26 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CollisionDrive_l4s1/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l4s1/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/BRIGHT>
+    ingen:value 0.337054 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/GATE>
+    ingen:value -38.475000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/ATTACK>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/DRIVE>
+    ingen:value 0.120536 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/LEVEL>
+    ingen:value -18.848214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l4s1/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l4s1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<eqp_l4s2>
+    ingen:canvasX 1670.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <eqp_l4s2/INPUT_L> ,
+             <eqp_l4s2/INPUT_R> ,
+             <eqp_l4s2/OUTPUT_L> ,
+             <eqp_l4s2/OUTPUT_R> ,
+             <eqp_l4s2/BYPASS> ,
+             <eqp_l4s2/GAIN> ,
+             <eqp_l4s2/LFREQ> ,
+             <eqp_l4s2/LGAIN> ,
+             <eqp_l4s2/LQ> ,
+             <eqp_l4s2/MFREQ> ,
+             <eqp_l4s2/MGAIN> ,
+             <eqp_l4s2/MQ> ,
+             <eqp_l4s2/HFREQ> ,
+             <eqp_l4s2/HGAIN> ,
+             <eqp_l4s2/HQ> ,
+             <eqp_l4s2/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#eqp> ;
+    pedal:instanceNumber 27 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<eqp_l4s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l4s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l4s2/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/GAIN>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/LFREQ>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/LGAIN>
+    ingen:value 12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/LQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/MFREQ>
+    ingen:value 800.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/MGAIN>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/MQ>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/HFREQ>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/HGAIN>
+    ingen:value 31.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/HQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l4s2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<StompBox_fuzz_l4s3>
+    ingen:canvasX 1670.0 ;
+    ingen:canvasY 540.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <StompBox_fuzz_l4s3/INPUT_L> ,
+             <StompBox_fuzz_l4s3/INPUT_R> ,
+             <StompBox_fuzz_l4s3/OUTPUT_L> ,
+             <StompBox_fuzz_l4s3/OUTPUT_R> ,
+             <StompBox_fuzz_l4s3/BYPASS> ,
+             <StompBox_fuzz_l4s3/LEVEL> ,
+             <StompBox_fuzz_l4s3/HI> ,
+             <StompBox_fuzz_l4s3/MID> ,
+             <StompBox_fuzz_l4s3/LO> ,
+             <StompBox_fuzz_l4s3/GAIN> ,
+             <StompBox_fuzz_l4s3/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz> ;
+    pedal:instanceNumber 28 ;
+    pedal:preset <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz> ;
+    a ingen:Block .
+
+<StompBox_fuzz_l4s3/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l4s3/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l4s3/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/LEVEL>
+    ingen:value 26.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/HI>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/MID>
+    ingen:value -64.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/LO>
+    ingen:value -38.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/GAIN>
+    ingen:value 115.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l4s3/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<valve_l4s4>
+    ingen:canvasX 1670.0 ;
+    ingen:canvasY 660.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <valve_l4s4/input> ,
+             <valve_l4s4/output> ,
+             <valve_l4s4/q_p> ,
+             <valve_l4s4/dist_p> ,
+             <valve_l4s4/:bypass> ;
+    lv2:prototype <http://plugin.org.uk/swh-plugins/valve> ;
+    pedal:instanceNumber 29 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<valve_l4s4/input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<valve_l4s4/input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<valve_l4s4/q_p>
+    ingen:value 0.426897 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l4s4/dist_p>
+    ingen:value 0.590402 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<valve_l4s4/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_1_l4s5>
+    ingen:canvasX 1670.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_1_l4s5/in> ,
+             <mono_1_l4s5/out> ,
+             <mono_1_l4s5/gain> ,
+             <mono_1_l4s5/enable> ,
+             <mono_1_l4s5/mute> ,
+             <mono_1_l4s5/level> ,
+             <mono_1_l4s5/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 30 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_1_l4s5/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_1_l4s5/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_1_l4s5/gain>
+    ingen:value -5.513393 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l4s5/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l4s5/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l4s5/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_1_l4s5/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_l5s0>
+    ingen:canvasX 2050.0 ;
+    ingen:canvasY 180.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_l5s0/in> ,
+             <mono_l5s0/out> ,
+             <mono_l5s0/bypass> ,
+             <mono_l5s0/rms> ,
+             <mono_l5s0/attack> ,
+             <mono_l5s0/release> ,
+             <mono_l5s0/threshold> ,
+             <mono_l5s0/ratio> ,
+             <mono_l5s0/gain> ,
+             <mono_l5s0/noClip> ,
+             <mono_l5s0/grmeter> ,
+             <mono_l5s0/lampDrive> ,
+             <mono_l5s0/meterIn> ,
+             <mono_l5s0/meterOut> ,
+             <mono_l5s0/:bypass> ;
+    lv2:prototype <http://invadarecords.com/plugins/lv2/compressor/mono> ;
+    pedal:instanceNumber 31 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_l5s0/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_l5s0/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_l5s0/bypass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/rms>
+    ingen:value 0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/attack>
+    ingen:value 0.014585 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/release>
+    ingen:value 0.050000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/threshold>
+    ingen:value -15.167411 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/ratio>
+    ingen:value 2.813058 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/gain>
+    ingen:value 2.390625 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/noClip>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_l5s0/grmeter>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l5s0/lampDrive>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l5s0/meterIn>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l5s0/meterOut>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_l5s0/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<Rumor_l5s1>
+    ingen:canvasX 2050.0 ;
+    ingen:canvasY 300.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <Rumor_l5s1/in0> ,
+             <Rumor_l5s1/out0> ,
+             <Rumor_l5s1/Bypass> ,
+             <Rumor_l5s1/Knob1> ,
+             <Rumor_l5s1/Knob2> ,
+             <Rumor_l5s1/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/Rumor> ;
+    pedal:instanceNumber 32 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<Rumor_l5s1/in0>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<Rumor_l5s1/in0>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<Rumor_l5s1/Bypass>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l5s1/Knob1>
+    ingen:value 0.110491 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l5s1/Knob2>
+    ingen:value 0.128906 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<Rumor_l5s1/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<eqp_l5s2>
+    ingen:canvasX 2050.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <eqp_l5s2/INPUT_L> ,
+             <eqp_l5s2/INPUT_R> ,
+             <eqp_l5s2/OUTPUT_L> ,
+             <eqp_l5s2/OUTPUT_R> ,
+             <eqp_l5s2/BYPASS> ,
+             <eqp_l5s2/GAIN> ,
+             <eqp_l5s2/LFREQ> ,
+             <eqp_l5s2/LGAIN> ,
+             <eqp_l5s2/LQ> ,
+             <eqp_l5s2/MFREQ> ,
+             <eqp_l5s2/MGAIN> ,
+             <eqp_l5s2/MQ> ,
+             <eqp_l5s2/HFREQ> ,
+             <eqp_l5s2/HGAIN> ,
+             <eqp_l5s2/HQ> ,
+             <eqp_l5s2/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#eqp> ;
+    pedal:instanceNumber 33 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<eqp_l5s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l5s2/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<eqp_l5s2/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/GAIN>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/LFREQ>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/LGAIN>
+    ingen:value 12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/LQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/MFREQ>
+    ingen:value 800.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/MGAIN>
+    ingen:value -12.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/MQ>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/HFREQ>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/HGAIN>
+    ingen:value 31.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/HQ>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<eqp_l5s2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<CollisionDrive_l5s3>
+    ingen:canvasX 2050.0 ;
+    ingen:canvasY 540.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <CollisionDrive_l5s3/in> ,
+             <CollisionDrive_l5s3/out> ,
+             <CollisionDrive_l5s3/BYPASS> ,
+             <CollisionDrive_l5s3/BRIGHT> ,
+             <CollisionDrive_l5s3/GATE> ,
+             <CollisionDrive_l5s3/ATTACK> ,
+             <CollisionDrive_l5s3/DRIVE> ,
+             <CollisionDrive_l5s3/LEVEL> ,
+             <CollisionDrive_l5s3/V1> ,
+             <CollisionDrive_l5s3/:bypass> ;
+    lv2:prototype <https://github.com/brummer10/CollisionDrive> ;
+    pedal:instanceNumber 34 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<CollisionDrive_l5s3/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l5s3/BYPASS>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/BRIGHT>
+    ingen:value 0.337054 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/GATE>
+    ingen:value -38.475000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/ATTACK>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/DRIVE>
+    ingen:value 0.120536 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/LEVEL>
+    ingen:value -18.848214 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<CollisionDrive_l5s3/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<CollisionDrive_l5s3/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<StompBox_fuzz_l5s4>
+    ingen:canvasX 2050.0 ;
+    ingen:canvasY 660.0 ;
+    ingen:enabled false ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 0 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <StompBox_fuzz_l5s4/INPUT_L> ,
+             <StompBox_fuzz_l5s4/INPUT_R> ,
+             <StompBox_fuzz_l5s4/OUTPUT_L> ,
+             <StompBox_fuzz_l5s4/OUTPUT_R> ,
+             <StompBox_fuzz_l5s4/BYPASS> ,
+             <StompBox_fuzz_l5s4/LEVEL> ,
+             <StompBox_fuzz_l5s4/HI> ,
+             <StompBox_fuzz_l5s4/MID> ,
+             <StompBox_fuzz_l5s4/LO> ,
+             <StompBox_fuzz_l5s4/GAIN> ,
+             <StompBox_fuzz_l5s4/:bypass> ;
+    lv2:prototype <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz> ;
+    pedal:instanceNumber 35 ;
+    pedal:preset <http://rakarrack.sourceforge.net/effects.html#StompBox_fuzz:preset:classic_fuzz> ;
+    a ingen:Block .
+
+<StompBox_fuzz_l5s4/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/INPUT_L>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l5s4/INPUT_R>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<StompBox_fuzz_l5s4/BYPASS>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/LEVEL>
+    ingen:value 26.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/HI>
+    ingen:value -28.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/MID>
+    ingen:value -64.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/LO>
+    ingen:value -38.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/GAIN>
+    ingen:value 115.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<StompBox_fuzz_l5s4/:bypass>
+    ingen:value 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mono_1_l5s5>
+    ingen:canvasX 2050.0 ;
+    ingen:canvasY 780.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 770 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mono_1_l5s5/in> ,
+             <mono_1_l5s5/out> ,
+             <mono_1_l5s5/gain> ,
+             <mono_1_l5s5/enable> ,
+             <mono_1_l5s5/mute> ,
+             <mono_1_l5s5/level> ,
+             <mono_1_l5s5/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/tinygain#mono> ;
+    pedal:instanceNumber 36 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mono_1_l5s5/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mono_1_l5s5/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mono_1_l5s5/gain>
+    ingen:value -5.513393 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l5s5/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l5s5/mute>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mono_1_l5s5/level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mono_1_l5s5/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mixer_a>
+    ingen:canvasX 2430.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mixer_a/lv2_audio_in_1> ,
+             <mixer_a/lv2_audio_in_2> ,
+             <mixer_a/lv2_audio_in_3> ,
+             <mixer_a/lv2_audio_in_4> ,
+             <mixer_a/lv2_audio_out_1> ,
+             <mixer_a/lv2_audio_out_2> ,
+             <mixer_a/lv2_audio_out_3> ,
+             <mixer_a/lv2_audio_out_4> ,
+             <mixer_a/Volume1> ,
+             <mixer_a/Panning1> ,
+             <mixer_a/Solo1> ,
+             <mixer_a/Mute1> ,
+             <mixer_a/Alt1> ,
+             <mixer_a/Volume2> ,
+             <mixer_a/Panning2> ,
+             <mixer_a/Solo2> ,
+             <mixer_a/Mute2> ,
+             <mixer_a/Alt2> ,
+             <mixer_a/Volume3> ,
+             <mixer_a/Panning3> ,
+             <mixer_a/Solo3> ,
+             <mixer_a/Mute3> ,
+             <mixer_a/Alt3> ,
+             <mixer_a/Volume4> ,
+             <mixer_a/Panning4> ,
+             <mixer_a/Solo4> ,
+             <mixer_a/Mute4> ,
+             <mixer_a/Alt4> ,
+             <mixer_a/MasterVolume> ,
+             <mixer_a/AltVolume> ,
+             <mixer_a/PluginEnabled> ,
+             <mixer_a/PostFader1Level> ,
+             <mixer_a/PostFader2Level> ,
+             <mixer_a/PostFader3Level> ,
+             <mixer_a/PostFader4Level> ,
+             <mixer_a/MasterMonitorLevel> ,
+             <mixer_a/AltMonitorLevel> ,
+             <mixer_a/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/mixer> ;
+    pedal:instanceNumber 37 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mixer_a/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_a/lv2_audio_in_2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_a/lv2_audio_in_3>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_a/lv2_audio_in_4>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_a/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_a/lv2_audio_in_2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_a/lv2_audio_in_3>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_a/lv2_audio_in_4>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_a/Volume1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Panning1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Solo1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Mute1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Alt1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Volume2>
+    ingen:value 0.384487 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Panning2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Solo2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Mute2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Alt2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Volume3>
+    ingen:value 0.969308 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Panning3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Solo3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Mute3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Alt3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Volume4>
+    ingen:value 0.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Panning4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Solo4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Mute4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/Alt4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/MasterVolume>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/AltVolume>
+    ingen:value 0.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/PluginEnabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_a/PostFader1Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_a/PostFader2Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_a/PostFader3Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_a/PostFader4Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_a/MasterMonitorLevel>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_a/AltMonitorLevel>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_a/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+
+<mixer_b>
+    ingen:canvasX 2810.0 ;
+    ingen:canvasY 420.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 0 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <mixer_b/lv2_audio_in_1> ,
+             <mixer_b/lv2_audio_in_2> ,
+             <mixer_b/lv2_audio_in_3> ,
+             <mixer_b/lv2_audio_in_4> ,
+             <mixer_b/lv2_audio_out_1> ,
+             <mixer_b/lv2_audio_out_2> ,
+             <mixer_b/lv2_audio_out_3> ,
+             <mixer_b/lv2_audio_out_4> ,
+             <mixer_b/Volume1> ,
+             <mixer_b/Panning1> ,
+             <mixer_b/Solo1> ,
+             <mixer_b/Mute1> ,
+             <mixer_b/Alt1> ,
+             <mixer_b/Volume2> ,
+             <mixer_b/Panning2> ,
+             <mixer_b/Solo2> ,
+             <mixer_b/Mute2> ,
+             <mixer_b/Alt2> ,
+             <mixer_b/Volume3> ,
+             <mixer_b/Panning3> ,
+             <mixer_b/Solo3> ,
+             <mixer_b/Mute3> ,
+             <mixer_b/Alt3> ,
+             <mixer_b/Volume4> ,
+             <mixer_b/Panning4> ,
+             <mixer_b/Solo4> ,
+             <mixer_b/Mute4> ,
+             <mixer_b/Alt4> ,
+             <mixer_b/MasterVolume> ,
+             <mixer_b/AltVolume> ,
+             <mixer_b/PluginEnabled> ,
+             <mixer_b/PostFader1Level> ,
+             <mixer_b/PostFader2Level> ,
+             <mixer_b/PostFader3Level> ,
+             <mixer_b/PostFader4Level> ,
+             <mixer_b/MasterMonitorLevel> ,
+             <mixer_b/AltMonitorLevel> ,
+             <mixer_b/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/mod-devel/mixer> ;
+    pedal:instanceNumber 38 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<mixer_b/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_b/lv2_audio_in_2>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_b/lv2_audio_in_3>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_b/lv2_audio_in_4>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<mixer_b/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_b/lv2_audio_in_2>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_b/lv2_audio_in_3>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_b/lv2_audio_in_4>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<mixer_b/Volume1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Panning1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Solo1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Mute1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Alt1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Volume2>
+    ingen:value 0.384487 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Panning2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Solo2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Mute2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Alt2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Volume3>
+    ingen:value 0.969308 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Panning3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Solo3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Mute3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Alt3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Volume4>
+    ingen:value 0.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Panning4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Solo4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Mute4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/Alt4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/MasterVolume>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/AltVolume>
+    ingen:value 0.750000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/PluginEnabled>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<mixer_b/PostFader1Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_b/PostFader2Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_b/PostFader3Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_b/PostFader4Level>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_b/MasterMonitorLevel>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_b/AltMonitorLevel>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<mixer_b/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<control_in>
+    atom:bufferType atom:Sequence ;
+    lv2:index 3 ;
+    lv2:name "Control In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<control_out>
+    atom:bufferType atom:Sequence ;
+    lv2:index 4 ;
+    lv2:name "Control Out" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<capture_1>
+    lv2:index 5 ;
+    lv2:name "Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_1" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<playback_1>
+    lv2:index 6 ;
+    lv2:name "Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_1" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<midi_separated_mode>
+    ingen:value 1 ;
+    lv2:index 7 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 8 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+
+<>
+    doap:name "Parallel_Beths" ;
+    pedal:unitName "Unknown" ;
+    pedal:unitModel "None" ;
+    pedal:width 4000 ;
+    pedal:height 1200 ;
+    pedal:addressings <addressings.json> ;
+    pedal:screenshot <screenshot.png> ;
+    pedal:thumbnail <thumbnail.png> ;
+    pedal:version 1 ;
+    ingen:polyphony 1 ;
+    ingen:arc _:b1,
+              _:b2,
+              _:b3,
+              _:b4,
+              _:b5,
+              _:b6,
+              _:b7,
+              _:b8,
+              _:b9,
+              _:b10,
+              _:b11,
+              _:b12,
+              _:b13,
+              _:b14,
+              _:b15,
+              _:b16,
+              _:b17,
+              _:b18,
+              _:b19,
+              _:b20,
+              _:b21,
+              _:b22,
+              _:b23,
+              _:b24,
+              _:b25,
+              _:b26,
+              _:b27,
+              _:b28,
+              _:b29,
+              _:b30,
+              _:b31,
+              _:b32,
+              _:b33,
+              _:b34,
+              _:b35,
+              _:b36,
+              _:b37,
+              _:b38,
+              _:b39,
+              _:b40,
+              _:b41,
+              _:b42,
+              _:b43,
+              _:b44 ;
+    ingen:block <mono_2_l0s0> ,
+                <StompBox_fuzz_l0s1> ,
+                <eqp_l0s2> ,
+                <CollisionDrive_l0s3> ,
+                <Rumor_l0s4> ,
+                <mono_1_l0s5> ,
+                <mono_l1s0> ,
+                <eqp_l1s1> ,
+                <CollisionDrive_l1s2> ,
+                <Rumor_l1s3> ,
+                <valve_l1s4> ,
+                <mono_1_l1s5> ,
+                <mono_2_l2s0> ,
+                <eqp_l2s1> ,
+                <StompBox_fuzz_l2s2> ,
+                <CollisionDrive_l2s3> ,
+                <valve_l2s4> ,
+                <mono_1_l2s5> ,
+                <mono_l3s0> ,
+                <StompBox_fuzz_l3s1> ,
+                <eqp_l3s2> ,
+                <Rumor_l3s3> ,
+                <valve_l3s4> ,
+                <mono_1_l3s5> ,
+                <mono_2_l4s0> ,
+                <CollisionDrive_l4s1> ,
+                <eqp_l4s2> ,
+                <StompBox_fuzz_l4s3> ,
+                <valve_l4s4> ,
+                <mono_1_l4s5> ,
+                <mono_l5s0> ,
+                <Rumor_l5s1> ,
+                <eqp_l5s2> ,
+                <CollisionDrive_l5s3> ,
+                <StompBox_fuzz_l5s4> ,
+                <mono_1_l5s5> ,
+                <mixer_a> ,
+                <mixer_b> ;
+    lv2:port <:bpb> ,
+             <:bpm> ,
+             <:rolling> ,
+             <midi_separated_mode> ,
+             <midi_loopback> ,
+             <control_in> ,
+             <control_out> ,
+             <capture_1> ,
+             <playback_1> ;
+    lv2:extensionData <http://lv2plug.in/ns/ext/state#interface> ;
+    a lv2:Plugin ,
+        ingen:Graph ,
+        pedal:Pedalboard .
