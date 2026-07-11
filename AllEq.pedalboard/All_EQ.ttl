@@ -1,0 +1,1754 @@
+@prefix atom:  <http://lv2plug.in/ns/ext/atom#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix ingen: <http://drobilla.net/ns/ingen#> .
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix midi:  <http://lv2plug.in/ns/ext/midi#> .
+@prefix mod:   <http://moddevices.com/ns/mod#> .
+@prefix pedal: <http://moddevices.com/ns/modpedal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:b1
+    ingen:tail <capseq10/out> ;
+    ingen:head <graphiceq/in> .
+
+_:b2
+    ingen:tail <graphiceq/out> ;
+    ingen:head <barkgraphiceq/in> .
+
+_:b3
+    ingen:tail <distrho/out_1> ;
+    ingen:head <zameq2/lv2_audio_in_1> .
+
+_:b4
+    ingen:tail <barkgraphiceq/out> ;
+    ingen:head <zamgeq31/lv2_audio_in_1> .
+
+_:b5
+    ingen:tail <zamgeq31/lv2_audio_out_1> ;
+    ingen:head <playback_1> .
+
+_:b6
+    ingen:tail <fil4/out> ;
+    ingen:head <distrho/in_1> .
+
+_:b7
+    ingen:tail <capture_1> ;
+    ingen:head <fil4/in> .
+
+_:b8
+    ingen:tail <tapeqbw/Output> ;
+    ingen:head <capseq10/in> .
+
+_:b9
+    ingen:tail <tapeq/Output> ;
+    ingen:head <tapeqbw/Input> .
+
+_:b10
+    ingen:tail <zameq2/lv2_audio_out_1> ;
+    ingen:head <tapeq/Input> .
+
+<tapeq>
+    ingen:canvasX 246.0 ;
+    ingen:canvasY 8.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <tapeq/Input> ,
+             <tapeq/Output> ,
+             <tapeq/Band1GainDb> ,
+             <tapeq/Band2GainDb> ,
+             <tapeq/Band3GainDb> ,
+             <tapeq/Band4GainDb> ,
+             <tapeq/Band5GainDb> ,
+             <tapeq/Band6GainDb> ,
+             <tapeq/Band7GainDb> ,
+             <tapeq/Band8GainDb> ,
+             <tapeq/Band1FreqHz> ,
+             <tapeq/Band2FreqHz> ,
+             <tapeq/Band3FreqHz> ,
+             <tapeq/Band4FreqHz> ,
+             <tapeq/Band5FreqHz> ,
+             <tapeq/Band6FreqHz> ,
+             <tapeq/Band7FreqHz> ,
+             <tapeq/Band8FreqHz> ,
+             <tapeq/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/eq> ;
+    pedal:instanceNumber 4 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<tapeq/Input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<tapeq/Input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<tapeq/Band1GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band2GainDb>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band3GainDb>
+    ingen:value -6.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band4GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band5GainDb>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band6GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band7GainDb>
+    ingen:value 11.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band8GainDb>
+    ingen:value -16.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band1FreqHz>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band2FreqHz>
+    ingen:value 168.179283 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band3FreqHz>
+    ingen:value 400.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band4FreqHz>
+    ingen:value 1000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band5FreqHz>
+    ingen:value 3367.386145 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band6FreqHz>
+    ingen:value 6000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band7FreqHz>
+    ingen:value 8485.281374 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/Band8FreqHz>
+    ingen:value 15874.010520 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeq/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw>
+    ingen:canvasX 1170.0 ;
+    ingen:canvasY 48.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 7 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <tapeqbw/Input> ,
+             <tapeqbw/Output> ,
+             <tapeqbw/Band1GainDb> ,
+             <tapeqbw/Band2GainDb> ,
+             <tapeqbw/Band3GainDb> ,
+             <tapeqbw/Band4GainDb> ,
+             <tapeqbw/Band5GainDb> ,
+             <tapeqbw/Band6GainDb> ,
+             <tapeqbw/Band7GainDb> ,
+             <tapeqbw/Band8GainDb> ,
+             <tapeqbw/Band1FreqHz> ,
+             <tapeqbw/Band2FreqHz> ,
+             <tapeqbw/Band3FreqHz> ,
+             <tapeqbw/Band4FreqHz> ,
+             <tapeqbw/Band5FreqHz> ,
+             <tapeqbw/Band6FreqHz> ,
+             <tapeqbw/Band7FreqHz> ,
+             <tapeqbw/Band8FreqHz> ,
+             <tapeqbw/Band1BandwidthOctaves> ,
+             <tapeqbw/Band2BandwidthOctaves> ,
+             <tapeqbw/Band3BandwidthOctaves> ,
+             <tapeqbw/Band4BandwidthOctaves> ,
+             <tapeqbw/Band5BandwidthOctaves> ,
+             <tapeqbw/Band6BandwidthOctaves> ,
+             <tapeqbw/Band7BandwidthOctaves> ,
+             <tapeqbw/Band8BandwidthOctaves> ,
+             <tapeqbw/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/tap/eqbw> ;
+    pedal:instanceNumber 5 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<tapeqbw/Input>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<tapeqbw/Input>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<tapeqbw/Band1GainDb>
+    ingen:value 5.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band2GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band3GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band4GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band5GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band6GainDb>
+    ingen:value -5.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band7GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band8GainDb>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band1FreqHz>
+    ingen:value 100.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band2FreqHz>
+    ingen:value 200.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band3FreqHz>
+    ingen:value 400.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band4FreqHz>
+    ingen:value 1000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band5FreqHz>
+    ingen:value 3000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band6FreqHz>
+    ingen:value 6000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band7FreqHz>
+    ingen:value 12000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band8FreqHz>
+    ingen:value 15000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band1BandwidthOctaves>
+    ingen:value 0.100000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band2BandwidthOctaves>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band3BandwidthOctaves>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band4BandwidthOctaves>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band5BandwidthOctaves>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band6BandwidthOctaves>
+    ingen:value 0.150000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band7BandwidthOctaves>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/Band8BandwidthOctaves>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<tapeqbw/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2>
+    ingen:canvasX 1924.0 ;
+    ingen:canvasY 1038.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 7 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <zameq2/lv2_audio_in_1> ,
+             <zameq2/lv2_audio_out_1> ,
+             <zameq2/boost1> ,
+             <zameq2/bw1> ,
+             <zameq2/f1> ,
+             <zameq2/boost2> ,
+             <zameq2/bw2> ,
+             <zameq2/f2> ,
+             <zameq2/boostl> ,
+             <zameq2/fl> ,
+             <zameq2/boosth> ,
+             <zameq2/fh> ,
+             <zameq2/master> ,
+             <zameq2/peaks> ,
+             <zameq2/:bypass> ;
+    lv2:prototype <urn:zamaudio:ZamEQ2> ;
+    pedal:instanceNumber 3 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<zameq2/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<zameq2/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<zameq2/boost1>
+    ingen:value -5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/bw1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/f1>
+    ingen:value 500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/boost2>
+    ingen:value 6.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/bw2>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/f2>
+    ingen:value 2522.689246 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/boostl>
+    ingen:value -0.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/fl>
+    ingen:value 111.362340 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/boosth>
+    ingen:value -3.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/fh>
+    ingen:value 8000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/master>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/peaks>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zameq2/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31>
+    ingen:canvasX 2622.0 ;
+    ingen:canvasY 1318.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 7 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <zamgeq31/lv2_audio_in_1> ,
+             <zamgeq31/lv2_audio_out_1> ,
+             <zamgeq31/master> ,
+             <zamgeq31/band1> ,
+             <zamgeq31/band2> ,
+             <zamgeq31/band3> ,
+             <zamgeq31/band4> ,
+             <zamgeq31/band5> ,
+             <zamgeq31/band6> ,
+             <zamgeq31/band7> ,
+             <zamgeq31/band8> ,
+             <zamgeq31/band9> ,
+             <zamgeq31/band10> ,
+             <zamgeq31/band11> ,
+             <zamgeq31/band12> ,
+             <zamgeq31/band13> ,
+             <zamgeq31/band14> ,
+             <zamgeq31/band15> ,
+             <zamgeq31/band16> ,
+             <zamgeq31/band17> ,
+             <zamgeq31/band18> ,
+             <zamgeq31/band19> ,
+             <zamgeq31/band20> ,
+             <zamgeq31/band21> ,
+             <zamgeq31/band22> ,
+             <zamgeq31/band23> ,
+             <zamgeq31/band24> ,
+             <zamgeq31/band25> ,
+             <zamgeq31/band26> ,
+             <zamgeq31/band27> ,
+             <zamgeq31/band28> ,
+             <zamgeq31/band29> ,
+             <zamgeq31/:bypass> ;
+    lv2:prototype <urn:zamaudio:ZamGEQ31> ;
+    pedal:instanceNumber 9 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<zamgeq31/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<zamgeq31/lv2_audio_in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<zamgeq31/master>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band11>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band12>
+    ingen:value 8.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band16>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band17>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band18>
+    ingen:value -11.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band19>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band20>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band21>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band22>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band23>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band24>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band25>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band26>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band27>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band28>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/band29>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<zamgeq31/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq>
+    ingen:canvasX 2676.0 ;
+    ingen:canvasY 148.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <graphiceq/in> ,
+             <graphiceq/out> ,
+             <graphiceq/G10> ,
+             <graphiceq/G11> ,
+             <graphiceq/G1> ,
+             <graphiceq/G2> ,
+             <graphiceq/G3> ,
+             <graphiceq/G4> ,
+             <graphiceq/G5> ,
+             <graphiceq/G6> ,
+             <graphiceq/G7> ,
+             <graphiceq/G8> ,
+             <graphiceq/G9> ,
+             <graphiceq/V10> ,
+             <graphiceq/V11> ,
+             <graphiceq/V1> ,
+             <graphiceq/V2> ,
+             <graphiceq/V3> ,
+             <graphiceq/V4> ,
+             <graphiceq/V5> ,
+             <graphiceq/V6> ,
+             <graphiceq/V7> ,
+             <graphiceq/V8> ,
+             <graphiceq/V9> ,
+             <graphiceq/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_graphiceq_#_graphiceq_> ;
+    pedal:instanceNumber 7 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<graphiceq/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<graphiceq/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<graphiceq/G10>
+    ingen:value 3.258929 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G11>
+    ingen:value 1.529018 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G1>
+    ingen:value -1.651786 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G2>
+    ingen:value -13.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G4>
+    ingen:value 5.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G7>
+    ingen:value -9.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/G9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<graphiceq/V10>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V11>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V2>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V3>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V4>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V5>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V6>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V7>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V8>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/V9>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<graphiceq/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq>
+    ingen:canvasX 3136.0 ;
+    ingen:canvasY 712.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 3 ;
+    lv2:minorVersion 28 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <barkgraphiceq/in> ,
+             <barkgraphiceq/out> ,
+             <barkgraphiceq/G1> ,
+             <barkgraphiceq/G2> ,
+             <barkgraphiceq/G3> ,
+             <barkgraphiceq/G4> ,
+             <barkgraphiceq/G5> ,
+             <barkgraphiceq/G6> ,
+             <barkgraphiceq/G7> ,
+             <barkgraphiceq/G8> ,
+             <barkgraphiceq/G9> ,
+             <barkgraphiceq/G10> ,
+             <barkgraphiceq/G11> ,
+             <barkgraphiceq/G12> ,
+             <barkgraphiceq/G13> ,
+             <barkgraphiceq/G14> ,
+             <barkgraphiceq/G15> ,
+             <barkgraphiceq/G16> ,
+             <barkgraphiceq/G17> ,
+             <barkgraphiceq/G18> ,
+             <barkgraphiceq/G19> ,
+             <barkgraphiceq/G20> ,
+             <barkgraphiceq/G21> ,
+             <barkgraphiceq/G22> ,
+             <barkgraphiceq/G23> ,
+             <barkgraphiceq/G24> ,
+             <barkgraphiceq/V1> ,
+             <barkgraphiceq/V2> ,
+             <barkgraphiceq/V3> ,
+             <barkgraphiceq/V4> ,
+             <barkgraphiceq/V5> ,
+             <barkgraphiceq/V6> ,
+             <barkgraphiceq/V7> ,
+             <barkgraphiceq/V8> ,
+             <barkgraphiceq/V9> ,
+             <barkgraphiceq/V10> ,
+             <barkgraphiceq/V11> ,
+             <barkgraphiceq/V12> ,
+             <barkgraphiceq/V13> ,
+             <barkgraphiceq/V14> ,
+             <barkgraphiceq/V15> ,
+             <barkgraphiceq/V16> ,
+             <barkgraphiceq/V17> ,
+             <barkgraphiceq/V18> ,
+             <barkgraphiceq/V19> ,
+             <barkgraphiceq/V20> ,
+             <barkgraphiceq/V21> ,
+             <barkgraphiceq/V22> ,
+             <barkgraphiceq/V23> ,
+             <barkgraphiceq/V24> ,
+             <barkgraphiceq/:bypass> ;
+    lv2:prototype <http://guitarix.sourceforge.net/plugins/gx_barkgraphiceq_#_barkgraphiceq_> ;
+    pedal:instanceNumber 8 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<barkgraphiceq/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/G1>
+    ingen:value 6.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G5>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G6>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G7>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G8>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G9>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G10>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G11>
+    ingen:value 8.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G12>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G13>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G14>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G15>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G16>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G17>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G18>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G19>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G20>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G21>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G22>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G23>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/G24>
+    ingen:value -1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<barkgraphiceq/V1>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V2>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V3>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V4>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V5>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V6>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V7>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V8>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V9>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V10>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V11>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V12>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V13>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V14>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V15>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V16>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V17>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V18>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V19>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V20>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V21>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V22>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V23>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/V24>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<barkgraphiceq/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho>
+    ingen:canvasX 1190.0 ;
+    ingen:canvasY 1080.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 2 ;
+    lv2:minorVersion 2 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <distrho/in_1> ,
+             <distrho/out_1> ,
+             <distrho/freql> ,
+             <distrho/gl> ,
+             <distrho/freq1> ,
+             <distrho/g1> ,
+             <distrho/bw1> ,
+             <distrho/freq2> ,
+             <distrho/g2> ,
+             <distrho/bw2> ,
+             <distrho/freq3> ,
+             <distrho/g3> ,
+             <distrho/bw3> ,
+             <distrho/freq4> ,
+             <distrho/g4> ,
+             <distrho/bw4> ,
+             <distrho/freqh> ,
+             <distrho/gh> ,
+             <distrho/master> ,
+             <distrho/filtogl> ,
+             <distrho/filtog1> ,
+             <distrho/filtog2> ,
+             <distrho/filtog3> ,
+             <distrho/filtog4> ,
+             <distrho/filtogh> ,
+             <distrho/enable> ,
+             <distrho/:bypass> ;
+    lv2:prototype <urn:distrho:a-eq> ;
+    pedal:instanceNumber 2 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<distrho/in_1>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<distrho/in_1>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<distrho/freql>
+    ingen:value 160.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/gl>
+    ingen:value 5.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/freq1>
+    ingen:value 300.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/g1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/bw1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/freq2>
+    ingen:value 1334.839854 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/g2>
+    ingen:value 13.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/bw2>
+    ingen:value 0.100000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/freq3>
+    ingen:value 2500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/g3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/bw3>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/freq4>
+    ingen:value 6000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/g4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/bw4>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/freqh>
+    ingen:value 9000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/gh>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/master>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/filtogl>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/filtog1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/filtog2>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/filtog3>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/filtog4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/filtogh>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<distrho/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4>
+    ingen:canvasX 174.0 ;
+    ingen:canvasY 892.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 1 ;
+    lv2:minorVersion 1 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <fil4/in> ,
+             <fil4/out> ,
+             <fil4/enable> ,
+             <fil4/gain> ,
+             <fil4/peakreset> ,
+             <fil4/HighPass> ,
+             <fil4/HPfreq> ,
+             <fil4/HPQ> ,
+             <fil4/LowPass> ,
+             <fil4/LPfreq> ,
+             <fil4/LPQ> ,
+             <fil4/LSsec> ,
+             <fil4/LSfreq> ,
+             <fil4/LSq> ,
+             <fil4/LSgain> ,
+             <fil4/sec1> ,
+             <fil4/freq1> ,
+             <fil4/q1> ,
+             <fil4/gain1> ,
+             <fil4/sec2> ,
+             <fil4/freq2> ,
+             <fil4/q2> ,
+             <fil4/gain2> ,
+             <fil4/sec3> ,
+             <fil4/freq3> ,
+             <fil4/q3> ,
+             <fil4/gain3> ,
+             <fil4/sec4> ,
+             <fil4/freq4> ,
+             <fil4/q4> ,
+             <fil4/gain4> ,
+             <fil4/HSsec> ,
+             <fil4/HSfreq> ,
+             <fil4/HSq> ,
+             <fil4/HSgain> ,
+             <fil4/peak> ,
+             <fil4/:bypass> ;
+    lv2:prototype <http://gareus.org/oss/lv2/fil4#mono> ;
+    pedal:instanceNumber 1 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<fil4/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<fil4/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<fil4/enable>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/gain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/peakreset>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HighPass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HPfreq>
+    ingen:value 20.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HPQ>
+    ingen:value 0.700000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LowPass>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LPfreq>
+    ingen:value 20000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LPQ>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LSsec>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LSfreq>
+    ingen:value 80.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LSq>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/LSgain>
+    ingen:value 4.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/sec1>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/freq1>
+    ingen:value 160.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/q1>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/gain1>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/sec2>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/freq2>
+    ingen:value 397.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/q2>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/gain2>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/sec3>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/freq3>
+    ingen:value 1250.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/q3>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/gain3>
+    ingen:value 8.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/sec4>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/freq4>
+    ingen:value 2500.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/q4>
+    ingen:value 0.600000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/gain4>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HSsec>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HSfreq>
+    ingen:value 8000.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HSq>
+    ingen:value 1.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/HSgain>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<fil4/peak>
+    a lv2:ControlPort ,
+        lv2:OutputPort .
+
+<fil4/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10>
+    ingen:canvasX 2088.0 ;
+    ingen:canvasY 130.0 ;
+    ingen:enabled true ;
+    ingen:polyphonic false ;
+    lv2:microVersion 24 ;
+    lv2:minorVersion 9 ;
+    mod:builderVersion 0 ;
+    mod:releaseNumber 0 ;
+    lv2:port <capseq10/in> ,
+             <capseq10/out> ,
+             <capseq10/band31hz> ,
+             <capseq10/band63hz> ,
+             <capseq10/band125hz> ,
+             <capseq10/band250hz> ,
+             <capseq10/band500hz> ,
+             <capseq10/band1khz> ,
+             <capseq10/band2khz> ,
+             <capseq10/band4khz> ,
+             <capseq10/band8khz> ,
+             <capseq10/band16khz> ,
+             <capseq10/:bypass> ;
+    lv2:prototype <http://moddevices.com/plugins/caps/Eq10> ;
+    pedal:instanceNumber 6 ;
+    pedal:preset <> ;
+    a ingen:Block .
+
+<capseq10/in>
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<capseq10/in>
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<capseq10/band31hz>
+    ingen:value 10.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band63hz>
+    ingen:value 7.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band125hz>
+    ingen:value 3.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band250hz>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band500hz>
+    ingen:value 8.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band1khz>
+    ingen:value -8.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band2khz>
+    ingen:value 0.000000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band4khz>
+    ingen:value 5.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band8khz>
+    ingen:value 7.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/band16khz>
+    ingen:value 11.500000 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<capseq10/:bypass>
+    ingen:value 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpb>
+    ingen:value 4.000000 ;
+    lv2:index 0 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:bpm>
+    ingen:value 120.000000 ;
+    lv2:index 1 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<:rolling>
+    ingen:value 0 ;
+    lv2:index 2 ;
+    a lv2:ControlPort ,
+        lv2:InputPort .
+
+<control_in>
+    atom:bufferType atom:Sequence ;
+    lv2:index 3 ;
+    lv2:name "Control In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<control_out>
+    atom:bufferType atom:Sequence ;
+    lv2:index 4 ;
+    lv2:name "Control Out" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "control_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<capture_1>
+    lv2:index 5 ;
+    lv2:name "Capture 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_1" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<capture_2>
+    lv2:index 6 ;
+    lv2:name "Capture 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "capture_2" ;
+    a lv2:AudioPort ,
+        lv2:InputPort .
+
+<playback_1>
+    lv2:index 7 ;
+    lv2:name "Playback 1" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_1" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<playback_2>
+    lv2:index 8 ;
+    lv2:name "Playback 2" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "playback_2" ;
+    a lv2:AudioPort ,
+        lv2:OutputPort .
+
+<serial_midi_in>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 9 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_in" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<serial_midi_out>
+    atom:bufferType atom:Sequence ;
+    atom:supports midi:MidiEvent ;
+    lv2:index 10 ;
+    lv2:name "DIN MIDI In" ;
+    lv2:portProperty lv2:connectionOptional ;
+    lv2:symbol "serial_midi_out" ;
+    <http://lv2plug.in/ns/ext/resize-port#minimumSize> 4096 ;
+    a atom:AtomPort ,
+        lv2:OutputPort .
+
+<midi_separated_mode>
+    ingen:value 0 ;
+    lv2:index 11 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<midi_loopback>
+    ingen:value 0 ;
+    lv2:index 12 ;
+    a atom:AtomPort ,
+        lv2:InputPort .
+
+<>
+    doap:name "All EQ" ;
+    pedal:unitName "Unknown" ;
+    pedal:unitModel "None" ;
+    pedal:width 2800 ;
+    pedal:height 600 ;
+    pedal:addressings <addressings.json> ;
+    pedal:screenshot <screenshot.png> ;
+    pedal:thumbnail <thumbnail.png> ;
+    pedal:version 2 ;
+    ingen:polyphony 1 ;
+    ingen:arc _:b1 ,
+              _:b2 ,
+              _:b3 ,
+              _:b4 ,
+              _:b5 ,
+              _:b6 ,
+              _:b7 ,
+              _:b8 ,
+              _:b9 ,
+              _:b10 ;
+    ingen:block <tapeq> ,
+                <tapeqbw> ,
+                <zameq2> ,
+                <zamgeq31> ,
+                <graphiceq> ,
+                <barkgraphiceq> ,
+                <distrho> ,
+                <fil4> ,
+                <capseq10> ;
+    lv2:port <:bpb> ,
+             <:bpm> ,
+             <:rolling> ,
+             <midi_separated_mode> ,
+             <midi_loopback> ,
+             <control_in> ,
+             <control_out> ,
+             <serial_midi_in> ,
+             <serial_midi_out> ,
+             <capture_1> ,
+             <capture_2> ,
+             <playback_1> ,
+             <playback_2> ;
+    lv2:extensionData <http://lv2plug.in/ns/ext/state#interface> ;
+    a lv2:Plugin ,
+        ingen:Graph ,
+        pedal:Pedalboard .

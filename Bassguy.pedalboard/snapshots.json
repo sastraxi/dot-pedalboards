@@ -1,0 +1,1394 @@
+{
+    "current": 4,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.5,
+                        "GATE": -43.914620535714235,
+                        "ATTACK": 2.0,
+                        "DRIVE": 0.07645089285714285,
+                        "LEVEL": -10.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/pelennor2170-NAM_models/Tim R Magnatone Super 59 Mkii Max'd.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -6.1383928571428505,
+                        "buffered": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "a_reverb": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "blend": 0.30000001192092896,
+                        "roomsz": 0.5680803571428571,
+                        "enable": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cabsim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 11.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -3.058035714285708,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "To use the Neural Amp Modeler for modeling, you must first download some models:\n- Audition/Download from:  tone3000.com\n- In this UI, Click File Manager (bottom left)\n- Click \"NAM Models\" folder\n- Click Upload, select files previously downloaded from tone3000.com\n- On pi-Stomp: System Menu > Restart sound engine\n- Now you should be able to select the .nam files in the NAM plugin",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Many reverbs/delays/IR's, when following NAM, will create a horible burst of noise when the pedalboard is first loaded.\n\nThe cause is NaN (not a number) output from NAM.  A reverb/delay with feedback can recycle this bad output creating a nasty digital cacophony.\n\nA few reverbs seem to be NaN-safe including: DISTRHO DIE Reverb, and the X42 ",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Eq10": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 0.0,
+                        "band125hz": 0.0,
+                        "band250hz": 0.0,
+                        "band500hz": 0.0,
+                        "band1khz": 0.0,
+                        "band2khz": 0.0,
+                        "band4khz": 0.0,
+                        "band8khz": 0.0,
+                        "band16khz": 0.0
+                    },
+                    "preset": ""
+                },
+                "BassCab": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 2.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 1.0,
+                        "HPfreq": 29.96614153753364,
+                        "HPQ": 0.3843749934541329,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 187.2883846095845,
+                        "q1": 0.6000000000000015,
+                        "gain1": 3.5,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 1.0,
+                        "freq3": 1113.6233976754236,
+                        "q3": 0.6000000238418579,
+                        "gain3": -5.5,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": ""
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.0,
+                        "threshold": 0.125,
+                        "ratio": 2.0,
+                        "attack": 20.0,
+                        "release": 250.0,
+                        "makeup": 1.0,
+                        "knee": 2.828429937362671,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 1.0
+                    },
+                    "preset": ""
+                },
+                "Advanced_NoiseGate": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Threshold": -60.703125000000014,
+                        "Attack": 1.0552455357142856,
+                        "Hold": 19.212053571428637,
+                        "Decay": 377.29743303571456
+                    },
+                    "preset": ""
+                },
+                "a_comp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "att": 10.0,
+                        "rel": 80.0,
+                        "kn": 0.0,
+                        "rat": 4.0,
+                        "thr": 0.0,
+                        "mak": 0.0,
+                        "sidech": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Clean (G1 L0 B1 T1).nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "MonoCompressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.276992187333235,
+                        "threshold": 0.27918136164141416,
+                        "ratio": 3.006969928741455,
+                        "attack": 3.5034399032592773,
+                        "release": 21.859899520874023,
+                        "makeup": 1.2388392857142856,
+                        "knee": 1.0,
+                        "mix": 1.0
+                    },
+                    "preset": "http://calf.sourceforge.net/factory_presets#monocompressor_SnareMic"
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Boost Pedal Pack/FORTIN HEX DRIVE.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.190476190476204,
+                        "output_level": -2.512471655328774,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "decay": 5807.366071,
+                        "drylevel": -48.482142857142854,
+                        "wetlevel": -70.0,
+                        "combs_en": 1.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "stereo_enh": 1.0,
+                        "mode": 19.0
+                    },
+                    "preset": ""
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 100.0,
+                        "MASTER_VOL": 0.0
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -45.0,
+                        "attack": 0.0,
+                        "close": -67.5,
+                        "mains": 50.0
+                    },
+                    "preset": ""
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "VOX AC-15",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.048549000173807144,
+                        "GATE": -43.91461944580078,
+                        "ATTACK": 2.0,
+                        "DRIVE": 0.04296875,
+                        "LEVEL": -10.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/pelennor2170-NAM_models/Phillipe P VOXAC15-JonAr4.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "buffered": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "a_reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blend": 0.30000001192092896,
+                        "roomsz": 0.5680803571428571,
+                        "enable": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cabsim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 12.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "To use the Neural Amp Modeler for modeling, you must first download some models:\n- Audition/Download from:  tone3000.com\n- In this UI, Click File Manager (bottom left)\n- Click \"NAM Models\" folder\n- Click Upload, select files previously downloaded from tone3000.com\n- On pi-Stomp: System Menu > Restart sound engine\n- Now you should be able to select the .nam files in the NAM plugin",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Many reverbs/delays/IR's, when following NAM, will create a horible burst of noise when the pedalboard is first loaded.\n\nThe cause is NaN (not a number) output from NAM.  A reverb/delay with feedback can recycle this bad output creating a nasty digital cacophony.\n\nA few reverbs seem to be NaN-safe including: DISTRHO DIE Reverb, and the X42 ",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Eq10": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 0.0,
+                        "band125hz": 0.0,
+                        "band250hz": 0.0,
+                        "band500hz": 0.0,
+                        "band1khz": 0.0,
+                        "band2khz": 0.0,
+                        "band4khz": 0.0,
+                        "band8khz": 0.0,
+                        "band16khz": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "BassCab": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 2.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 1.0,
+                        "HPfreq": 29.96614153753364,
+                        "HPQ": 0.3843749934541329,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 187.2883846095845,
+                        "q1": 0.6000000000000015,
+                        "gain1": 3.5,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 1.0,
+                        "freq3": 1113.6233976754236,
+                        "q3": 0.6000000238418579,
+                        "gain3": -5.5,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": ""
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.0,
+                        "threshold": 0.125,
+                        "ratio": 2.0,
+                        "attack": 20.0,
+                        "release": 250.0,
+                        "makeup": 1.0,
+                        "knee": 2.828429937362671,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 1.0
+                    },
+                    "preset": ""
+                },
+                "Advanced_NoiseGate": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Threshold": -60.703125000000014,
+                        "Attack": 1.0552455357142856,
+                        "Hold": 19.212053571428637,
+                        "Decay": 377.29743303571456
+                    },
+                    "preset": ""
+                },
+                "a_comp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "att": 10.0,
+                        "rel": 80.0,
+                        "kn": 0.0,
+                        "rat": 4.0,
+                        "thr": 0.0,
+                        "mak": 0.0,
+                        "sidech": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Clean (G1 L0 B1 T1).nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "MonoCompressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.276992187333235,
+                        "threshold": 0.27918136164141416,
+                        "ratio": 3.006969928741455,
+                        "attack": 3.5034399032592773,
+                        "release": 21.859899520874023,
+                        "makeup": 1.2388392857142856,
+                        "knee": 1.0,
+                        "mix": 1.0
+                    },
+                    "preset": "http://calf.sourceforge.net/factory_presets#monocompressor_SnareMic"
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Boost Pedal Pack/FORTIN HEX DRIVE.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.190476190476204,
+                        "output_level": -2.512471655328774,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "decay": 5807.366071,
+                        "drylevel": -48.482142857142854,
+                        "wetlevel": -70.0,
+                        "combs_en": 1.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "stereo_enh": 1.0,
+                        "mode": 19.0
+                    },
+                    "preset": ""
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 100.0,
+                        "MASTER_VOL": 0.0
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -45.0,
+                        "attack": 0.0,
+                        "close": -67.5,
+                        "mains": 50.0
+                    },
+                    "preset": ""
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "JCM2000",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.048549000173807144,
+                        "GATE": -43.91461944580078,
+                        "ATTACK": 2.0,
+                        "DRIVE": 0.04296875,
+                        "LEVEL": -10.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/pelennor2170-NAM_models/Tim R JCM2000 L2 G6.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -7.098214285714278,
+                        "buffered": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "a_reverb": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "blend": 0.30000001192092896,
+                        "roomsz": 0.5680803571428571,
+                        "enable": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cabsim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 3.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -3.013392857142854,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "To use the Neural Amp Modeler for modeling, you must first download some models:\n- Audition/Download from:  tone3000.com\n- In this UI, Click File Manager (bottom left)\n- Click \"NAM Models\" folder\n- Click Upload, select files previously downloaded from tone3000.com\n- On pi-Stomp: System Menu > Restart sound engine\n- Now you should be able to select the .nam files in the NAM plugin",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Many reverbs/delays/IR's, when following NAM, will create a horible burst of noise when the pedalboard is first loaded.\n\nThe cause is NaN (not a number) output from NAM.  A reverb/delay with feedback can recycle this bad output creating a nasty digital cacophony.\n\nA few reverbs seem to be NaN-safe including: DISTRHO DIE Reverb, and the X42 ",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Eq10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 0.0,
+                        "band125hz": 0.0,
+                        "band250hz": 0.0,
+                        "band500hz": 0.0,
+                        "band1khz": 0.0,
+                        "band2khz": -2.156250000000007,
+                        "band4khz": -3.6026785714285765,
+                        "band8khz": -4.245535714285637,
+                        "band16khz": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "BassCab": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 2.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 1.0,
+                        "HPfreq": 29.96614153753364,
+                        "HPQ": 0.3843749934541329,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 187.2883846095845,
+                        "q1": 0.6000000000000015,
+                        "gain1": 3.5,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 1.0,
+                        "freq3": 1113.6233976754236,
+                        "q3": 0.6000000238418579,
+                        "gain3": -5.5,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": ""
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.0,
+                        "threshold": 0.125,
+                        "ratio": 2.0,
+                        "attack": 20.0,
+                        "release": 250.0,
+                        "makeup": 1.0,
+                        "knee": 2.828429937362671,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 1.0
+                    },
+                    "preset": ""
+                },
+                "Advanced_NoiseGate": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Threshold": -60.703125000000014,
+                        "Attack": 1.0552455357142856,
+                        "Hold": 19.212053571428637,
+                        "Decay": 377.29743303571456
+                    },
+                    "preset": ""
+                },
+                "a_comp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "att": 10.0,
+                        "rel": 80.0,
+                        "kn": 0.0,
+                        "rat": 4.0,
+                        "thr": 0.0,
+                        "mak": 0.0,
+                        "sidech": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Clean (G1 L0 B1 T1).nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "MonoCompressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.276992187333235,
+                        "threshold": 0.27918136164141416,
+                        "ratio": 3.006969928741455,
+                        "attack": 3.5034399032592773,
+                        "release": 21.859899520874023,
+                        "makeup": 1.2388392857142856,
+                        "knee": 1.0,
+                        "mix": 1.0
+                    },
+                    "preset": "http://calf.sourceforge.net/factory_presets#monocompressor_SnareMic"
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Boost Pedal Pack/FORTIN HEX DRIVE.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.190476190476204,
+                        "output_level": -2.512471655328774,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "decay": 5807.366071,
+                        "drylevel": -48.482142857142854,
+                        "wetlevel": -70.0,
+                        "combs_en": 1.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "stereo_enh": 1.0,
+                        "mode": 19.0
+                    },
+                    "preset": ""
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 100.0,
+                        "MASTER_VOL": 0.0
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -45.0,
+                        "attack": 0.0,
+                        "close": -67.5,
+                        "mains": 50.0
+                    },
+                    "preset": ""
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Marshall HiG",
+            "data": {
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.0,
+                        "GATE": -43.91461944580078,
+                        "ATTACK": 2.0,
+                        "DRIVE": 0.27734374999999994,
+                        "LEVEL": -10.450892857142858
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/pelennor2170-NAM_models/Tim R JCM2000 L2 G8.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -7.90178571428571,
+                        "buffered": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "a_reverb": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "blend": 0.11830357142857145,
+                        "roomsz": 0.5680803571428571,
+                        "enable": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cabsim": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 3.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": -5.937499999999993,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            "25",
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "To use the Neural Amp Modeler for modeling, you must first download some models:\n- Audition/Download from:  tone3000.com\n- In this UI, Click File Manager (bottom left)\n- Click \"NAM Models\" folder\n- Click Upload, select files previously downloaded from tone3000.com\n- On pi-Stomp: System Menu > Restart sound engine\n- Now you should be able to select the .nam files in the NAM plugin",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "notes_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://open-music-kontrollers.ch/lv2/notes#fontHeight": [
+                            20.0,
+                            "i"
+                        ],
+                        "http://open-music-kontrollers.ch/lv2/notes#text": [
+                            "Many reverbs/delays/IR's, when following NAM, will create a horible burst of noise when the pedalboard is first loaded.\n\nThe cause is NaN (not a number) output from NAM.  A reverb/delay with feedback can recycle this bad output creating a nasty digital cacophony.\n\nA few reverbs seem to be NaN-safe including: DISTRHO DIE Reverb, and the X42 ",
+                            "s"
+                        ]
+                    },
+                    "ports": {},
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Eq10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": 0.0,
+                        "band63hz": 0.0,
+                        "band125hz": 0.0,
+                        "band250hz": 0.0,
+                        "band500hz": 0.0,
+                        "band1khz": 0.0,
+                        "band2khz": -2.156250000000007,
+                        "band4khz": -3.6026785714285765,
+                        "band8khz": -4.245535714285637,
+                        "band16khz": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "BassCab": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Attenuation": 0.0,
+                        "Model": 2.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 1.0,
+                        "HPfreq": 29.96614153753364,
+                        "HPQ": 0.3843749934541329,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 187.2883846095845,
+                        "q1": 0.6000000000000015,
+                        "gain1": 3.5,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 1.0,
+                        "freq3": 1113.6233976754236,
+                        "q3": 0.6000000238418579,
+                        "gain3": -5.5,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": ""
+                },
+                "Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.0,
+                        "threshold": 0.125,
+                        "ratio": 2.0,
+                        "attack": 20.0,
+                        "release": 250.0,
+                        "makeup": 1.0,
+                        "knee": 2.828429937362671,
+                        "detection": 0.0,
+                        "stereo_link": 0.0,
+                        "mix": 1.0
+                    },
+                    "preset": ""
+                },
+                "Advanced_NoiseGate": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Threshold": -60.703125000000014,
+                        "Attack": 1.0552455357142856,
+                        "Hold": 19.212053571428637,
+                        "Decay": 377.29743303571456
+                    },
+                    "preset": ""
+                },
+                "a_comp": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "att": 10.0,
+                        "rel": 80.0,
+                        "kn": 0.0,
+                        "rat": 4.0,
+                        "thr": 0.0,
+                        "mak": 0.0,
+                        "sidech": 0.0,
+                        "enable": 1.0
+                    },
+                    "preset": ""
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Clean (G1 L0 B1 T1).nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "MonoCompressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "bypass": 0.0,
+                        "level_in": 1.276992187333235,
+                        "threshold": 0.27918136164141416,
+                        "ratio": 3.006969928741455,
+                        "attack": 3.5034399032592773,
+                        "release": 21.859899520874023,
+                        "makeup": 1.2388392857142856,
+                        "knee": 1.0,
+                        "mix": 1.0
+                    },
+                    "preset": "http://calf.sourceforge.net/factory_presets#monocompressor_SnareMic"
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Boost Pedal Pack/FORTIN HEX DRIVE.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.190476190476204,
+                        "output_level": -2.512471655328774,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "decay": 5807.366071,
+                        "drylevel": -48.482142857142854,
+                        "wetlevel": -70.0,
+                        "combs_en": 1.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "stereo_enh": 1.0,
+                        "mode": 19.0
+                    },
+                    "preset": ""
+                },
+                "System_Compressor": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "COMP_MODE": 1.0,
+                        "RELEASE": 100.0,
+                        "MASTER_VOL": 0.0
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "open": -45.0,
+                        "attack": 0.0,
+                        "close": -67.5,
+                        "mains": 50.0
+                    },
+                    "preset": ""
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Bassguy",
+            "data": {
+                "a_comp": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "att": 10.0,
+                        "rel": 80.0,
+                        "kn": 4.239999771118164,
+                        "rat": 3.154226064682007,
+                        "thr": -34.20000076293945,
+                        "mak": 2.0999999046325684,
+                        "sidech": 0.0,
+                        "enable": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mod_cv_control": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Control": 10.0,
+                        "Smoothing": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 1.0,
+                        "HPfreq": 50.39684295654297,
+                        "HPQ": 0.6499999761581421,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 105.9463119506836,
+                        "LSq": 1.0,
+                        "LSgain": 1.0,
+                        "sec1": 1.0,
+                        "freq1": 176.77670288085938,
+                        "q1": 0.6000000238418579,
+                        "gain1": 3.5,
+                        "sec2": 1.0,
+                        "freq2": 397.0,
+                        "q2": 0.6000000238418579,
+                        "gain2": 0.0,
+                        "sec3": 0.0,
+                        "freq3": 1113.6234130859375,
+                        "q3": 0.6000000238418579,
+                        "gain3": -5.5,
+                        "sec4": 1.0,
+                        "freq4": 3535.533935546875,
+                        "q4": 0.6000000238418579,
+                        "gain4": 3.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8475.705078125,
+                        "HSq": 0.949999988079071,
+                        "HSgain": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Ampeg/BASS - PULTEC EQ - SVT - CAB - RE20 Microphone capture.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -1.2063490152359009,
+                        "output_level": 1.7324260473251343,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2_1": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Clean (G1 L0 B1 T1).nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.7346940040588379,
+                        "output_level": -0.4988659918308258,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2_2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 10.548752784729004,
+                        "output_level": 0.19047600030899048,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "reverb": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "decay": 2600.0,
+                        "drylevel": -0.4000000059604645,
+                        "wetlevel": -20.355356216430664,
+                        "combs_en": 1.0,
+                        "allps_en": 1.0,
+                        "bandpass_en": 1.0,
+                        "stereo_enh": 1.0,
+                        "mode": 17.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.24553599953651428,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        }
+    ]
+}
