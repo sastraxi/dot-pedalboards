@@ -3,6 +3,7 @@ hardware:
     - id: 1
       midi_CC: 104
       midi_port: Source Audio C4 Synth
+      midi_channel: 0
       longpress: previous_snapshot
       # shortpress: {callback: send_midi_cc, args: {cc: 72}}  # Uncomment to send MIDI CC on button press
     - id: 2

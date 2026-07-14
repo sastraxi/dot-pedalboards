@@ -3,6 +3,7 @@ hardware:
     - id: 1
       midi_CC: 104
       midi_port: Source Audio C4 Synth
+      midi_channel: 0
       longpress: previous_snapshot
     - id: 2
       midi_CC: 71
