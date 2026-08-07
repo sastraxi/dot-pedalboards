@@ -1,0 +1,476 @@
+{
+    "current": 1,
+    "snapshots": [
+        {
+            "name": "Default",
+            "data": {
+                "wah": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "VOLUME": 0.0,
+                        "HOTPOTZ": 0.5
+                    },
+                    "preset": ""
+                },
+                "eq10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": -8.0,
+                        "band63hz": -5.0,
+                        "band125hz": -2.0,
+                        "band250hz": 0.0,
+                        "band500hz": 3.0,
+                        "band1khz": 5.0,
+                        "band2khz": 4.0,
+                        "band4khz": 2.0,
+                        "band8khz": 0.0,
+                        "band16khz": 0.0
+                    },
+                    "preset": ""
+                },
+                "delay": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BPM": 120.0,
+                        "FEEDBACK": 50.0,
+                        "GAIN": 100.0,
+                        "HIGHPASS": 120.0,
+                        "HOWPASS": 12000.0,
+                        "LEVEL": 50.0,
+                        "MODE": 0.0,
+                        "NOTES": 5.0
+                    },
+                    "preset": ""
+                },
+                "chorus": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Frequency": 1.2,
+                        "LRPhaseShift": 180.0,
+                        "Depth": 85.0,
+                        "Delay": 25.0,
+                        "Contour": 100.0,
+                        "DryLevel": -3.0,
+                        "WetLevel": -3.0
+                    },
+                    "preset": ""
+                },
+                "nam_boost": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Boost Pedal Pack/IBANEZ TS 808 (BOOST).nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "nam_peavey": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Peavey Roadmaster/Roadmaster Automix input Bright0Norm4 T6M2B4P0 B5M0T3 Clear2.5.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "cab_dirty": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://moddevices.com/plugins/mod-devel/cabsim-IR-loader#ir": [
+                            "/home/pistomp/data/user-files/Speaker Cabinets IRs/Ampeg 8x10 57 A107.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "Gain": 0.0
+                    },
+                    "preset": ""
+                },
+                "whammy": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Step": 0.0,
+                        "First": 0.0,
+                        "Last": 12.0,
+                        "Clean": 0.7,
+                        "Gain": 3.0,
+                        "Fidelity": 1.0
+                    },
+                    "preset": ""
+                },
+                "xeq": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 0.0,
+                        "HPfreq": 20.0,
+                        "HPQ": 0.699999988079071,
+                        "LowPass": 0.0,
+                        "LPfreq": 20000.0,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 160.0,
+                        "q1": 0.6000000238418579,
+                        "gain1": 0.0,
+                        "sec2": 1.0,
+                        "freq2": 700.0,
+                        "q2": 3.0,
+                        "gain2": 6.0,
+                        "sec3": 1.0,
+                        "freq3": 1250.0,
+                        "q3": 0.6000000238418579,
+                        "gain3": 0.0,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": ""
+                },
+                "nam_svt": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Ampeg/BASS - PULTEC EQ - SVT - CAB - RE20 Microphone capture.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 4.5535714285714555,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": ""
+                },
+                "spark": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/TC Spark Booster/higher in volume + compensation.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": 0.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": ""
+                },
+                "Limiter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "thresh": -16.584821428571427,
+                        "output": 0.0,
+                        "release": 758.5,
+                        "attack": 234.4499969482422,
+                        "knee": 1.0
+                    },
+                    "preset": ""
+                },
+                "Noisegate": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "open": -37.66741071428575,
+                        "attack": 0.9849330357142891,
+                        "close": -26.874999999999794,
+                        "mains": 50.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "July 22",
+            "data": {
+                "wah": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "VOLUME": 0.625,
+                        "HOTPOTZ": 0.5
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "whammy": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "Step": 0.0,
+                        "First": 0.0,
+                        "Last": 12.0,
+                        "Clean": 0.699999988079071,
+                        "Gain": 3.0,
+                        "Fidelity": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "nam_svt": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Ampeg/BASS - PULTEC EQ - SVT - CAB - RE20 Microphone capture.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": -3.5646258503401143,
+                        "output_level": -3.7460317460317363,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "nam_boost": {
+                    "bypassed": true,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -0.28117913832199193,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "chorus": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "Frequency": 0.915178571428571,
+                        "LRPhaseShift": 180.0,
+                        "Depth": 66.18303571428571,
+                        "Delay": 25.0,
+                        "Contour": 100.0,
+                        "DryLevel": -3.0,
+                        "WetLevel": -3.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "delay": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "BPM": 120.0,
+                        "FEEDBACK": 50.0,
+                        "GAIN": 100.0,
+                        "HIGHPASS": 120.0,
+                        "HOWPASS": 12000.0,
+                        "LEVEL": 50.0,
+                        "MODE": 0.0,
+                        "NOTES": 5.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "nam_peavey": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Peavey Roadmaster/Roadmaster Automix input Bright0Norm4 T6M2B4P0 B5M0T3 Clear2.5.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 4.9070294784580355,
+                        "output_level": 2.2222222222222214,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cab_dirty": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://moddevices.com/plugins/mod-devel/cabsim-IR-loader#ir": [
+                            "/home/pistomp/data/user-files/Speaker Cabinets IRs/Ampeg 8x10 57 A107.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "Gain": -0.2142857142857224
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "xeq": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "enable": 1.0,
+                        "gain": 0.0,
+                        "peakreset": 1.0,
+                        "HighPass": 1.0,
+                        "HPfreq": 79.78795623779297,
+                        "HPQ": 0.6173229813575745,
+                        "LowPass": 0.0,
+                        "LPfreq": 2918.325560843784,
+                        "LPQ": 1.0,
+                        "LSsec": 1.0,
+                        "LSfreq": 80.0,
+                        "LSq": 1.0,
+                        "LSgain": 0.0,
+                        "sec1": 1.0,
+                        "freq1": 160.0,
+                        "q1": 0.6000000238418579,
+                        "gain1": 0.0,
+                        "sec2": 1.0,
+                        "freq2": 700.0,
+                        "q2": 3.0,
+                        "gain2": 6.0,
+                        "sec3": 1.0,
+                        "freq3": 1250.0,
+                        "q3": 0.6000000238418579,
+                        "gain3": 0.0,
+                        "sec4": 1.0,
+                        "freq4": 2500.0,
+                        "q4": 0.6000000238418579,
+                        "gain4": 0.0,
+                        "HSsec": 1.0,
+                        "HSfreq": 8000.0,
+                        "HSq": 1.0,
+                        "HSgain": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "mono": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 3.616071428571477,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "eq10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": -8.0,
+                        "band63hz": -5.0,
+                        "band125hz": -2.0,
+                        "band250hz": 0.0,
+                        "band500hz": 3.0,
+                        "band1khz": 5.0,
+                        "band2khz": 4.0,
+                        "band4khz": 2.0,
+                        "band8khz": 0.0,
+                        "band16khz": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Limiter": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "thresh": -16.584821428571427,
+                        "output": 0.0,
+                        "release": 758.5,
+                        "attack": 234.4499969482422,
+                        "knee": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 4.5535714285714555,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Noisegate": {
+                    "bypassed": true,
+                    "parameters": {},
+                    "ports": {
+                        "open": -37.66741071428575,
+                        "attack": 0.9849330357142891,
+                        "close": -26.874999999999794,
+                        "mains": 50.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "current": 0,
+    "snapshots": [
+        {
+            "name": "Heavy",
+            "data": {
+                "Eq10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": -1.0,
+                        "band63hz": -5.0,
+                        "band125hz": -4.0,
+                        "band250hz": -6.0,
+                        "band500hz": -3.0,
+                        "band1khz": 1.0,
+                        "band2khz": 4.0,
+                        "band4khz": 5.0,
+                        "band8khz": 3.0,
+                        "band16khz": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "a_reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blend": 0.10000000149011612,
+                        "roomsz": 0.30000001192092896,
+                        "enable": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cab_ir": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/home/pistomp/data/user-files/Speaker Cabinets IRs/Mesa_OS_4x12_57_m160.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Metallica/Mark IIC+ Hetfield Rhythm V2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -3.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.5,
+                        "GATE": -55.0,
+                        "ATTACK": 3.0,
+                        "DRIVE": 0.10000000149011612,
+                        "LEVEL": -10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/home/pistomp/data/user-files/Audio Recordings/Metal Guitar Drop-C DI.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        },
+        {
+            "name": "Clean",
+            "data": {
+                "stereo": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "gain": 0.0,
+                        "enable": 1.0,
+                        "mute": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "cab_ir": {
+                    "bypassed": false,
+                    "parameters": {
+                        "https://mod.audio/plugins/CabinetLoader#irfile": [
+                            "/home/pistomp/data/user-files/Speaker Cabinets IRs/Mesa_OS_4x12_57_m160.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "level": -12.0,
+                        "lv2_enabled": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "neural_amp_modeler_lv2": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://github.com/mikeoliphant/neural-amp-modeler-lv2#model": [
+                            "/home/pistomp/data/user-files/NAM Models/Metallica/Mark IIC+ Hetfield Rhythm V2.nam",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "input_level": 0.0,
+                        "output_level": -3.0,
+                        "quality_scale": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "Eq10": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "band31hz": -1.0,
+                        "band63hz": -5.0,
+                        "band125hz": -4.0,
+                        "band250hz": -6.0,
+                        "band500hz": -3.0,
+                        "band1khz": 1.0,
+                        "band2khz": 4.0,
+                        "band4khz": 5.0,
+                        "band8khz": 3.0,
+                        "band16khz": 1.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "a_reverb": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "blend": 0.10000000149011612,
+                        "roomsz": 0.30000001192092896,
+                        "enable": 0.0
+                    },
+                    "preset": "",
+                    "bpm": 120.0,
+                    "bpb": 4.0
+                },
+                "CollisionDrive": {
+                    "bypassed": false,
+                    "parameters": {},
+                    "ports": {
+                        "BYPASS": 1.0,
+                        "BRIGHT": 0.5,
+                        "GATE": -55.0,
+                        "ATTACK": 3.0,
+                        "DRIVE": 0.10000000149011612,
+                        "LEVEL": -10.0
+                    },
+                    "preset": ""
+                },
+                "audiofile": {
+                    "bypassed": false,
+                    "parameters": {
+                        "http://kxstudio.sf.net/carla/file/audio": [
+                            "/home/pistomp/data/user-files/Audio Recordings/Metal Guitar Drop-C DI.wav",
+                            "p"
+                        ]
+                    },
+                    "ports": {
+                        "lv2_freewheel": 0.0,
+                        "loop_mode": 1.0,
+                        "host_sync": 0.0,
+                        "volume": 100.0,
+                        "enabled": 1.0
+                    },
+                    "preset": ""
+                }
+            }
+        }
+    ]
+}
